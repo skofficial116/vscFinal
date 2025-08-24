@@ -1,0 +1,161 @@
+.about-wrapper {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.lang-btn {
+  padding: 1px 15px;
+  margin: 0 5px;
+  background: #f6edcb;
+  border: 1px solid #87764b;
+  color: #600;
+  font-family: garamond, times, serif;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.lang-toggle {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.lang-btn:hover {
+  background: #edd4ae;
+}
+
+.lang-btn.active {
+  background: #600;
+  color: #f6edcb;
+  border-color: #300;
+}
+
+.lang-content.hidden {
+  display: none;
+}
+
+.mission-vision {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mission-vision .card {
+  background: #fff8e7;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 486px) {
+  .mission-vision {
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  .mission-vision .card {
+    min-width: 250px;
+    flex-shrink: 0;
+  }
+}
+
+.why-vedic,
+.team,
+.timeline {
+  margin: 30px 0;
+  background: #fff8e7;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.team img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.timeline-cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+.timeline-card {
+  min-width: 200px;
+  background: #fceacf;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buy-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  /* background: var(--secondary-color); */
+  background: #600;
+  color: #fff;
+  padding: 6px 12px 8px 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 6px;
+  transition: all 0.3s;
+}
+.buy-btn .text.hidden {
+  display: none;
+}
+
+
+
+
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Space between the text and icon */
+  padding: 10px;
+  background-color: #f9e4ce;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  max-width: 200px;
+  margin: 0 auto 50px auto;
+  
+}
+
+.follow-us-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px; /* Controls the size of the clickable area */
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.instagram-logo {
+  width: 100%; /* Makes the image fill the parent container */
+  height: auto; /* Maintains aspect ratio */
+  display: block;
+}

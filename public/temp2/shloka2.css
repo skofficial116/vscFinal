@@ -1,0 +1,66 @@
+/* unused.css */
+
+/* Alternative color scheme (not used in style.css) */
+:root {
+  --alt-primary: #004466;
+  --alt-secondary: #228B22;
+  --alt-accent: #cc5500;
+  --alt-light-bg: #eef5f7;
+  --alt-dark-bg: #112;
+  --alt-text-color: #333;
+  --alt-heading-color: #004466;
+}
+
+/* Fancy heading style */
+.alt-heading {
+  font-family: "Georgia", serif;
+  font-size: 2.2rem;
+  color: var(--alt-heading-color);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Gradient button (not used in current UI) */
+.btn-gradient {
+  background: linear-gradient(135deg, var(--alt-primary), var(--alt-accent));
+  color: #fff;
+  padding: 0.6em 1.2em;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+.btn-gradient:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+/* Card with shadow (not used) */
+.card-unused {
+  background: var(--alt-light-bg);
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  margin-bottom: 1rem;
+}
+
+/* Unused flex layout */
+.flex-unused {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Alternate link style */
+.alt-link {
+  color: var(--alt-secondary);
+  text-decoration: underline dashed;
+  transition: color 0.3s ease;
+}
+.alt-link:hover {
+  color: var(--alt-accent);
+}

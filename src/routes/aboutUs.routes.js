@@ -1,8 +1,8 @@
 import { Router } from "express";
-import {aboutUsHTML} from "../controllers/aboutUs.controller.js";
+import {getAboutUsHTML} from "../controllers/aboutUs.controller.js";
 const router = Router();
 
-router.route("/").get(aboutUsHTML);
+router.route("/").get(getAboutUsHTML);
 
 
 export default router;

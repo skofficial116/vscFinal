@@ -1,12 +1,11 @@
-const generateAboutUsHTML = ()=>{
-   return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us - Vedic Science Club</title>
-    <link rel="stylesheet" href="/cssFiles/common.css" />
-    <link rel="stylesheet" href="/cssFiles/about.css" />
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="/about.css" />
   </head>
   <body>
     <div id="wrap">
@@ -19,17 +18,17 @@ const generateAboutUsHTML = ()=>{
         <div id="nav">
           <ul>
             <li class="myNavButton">
-              <a href="/home">Home</a>
+              <a href="http://localhost:8000/home">Home</a>
             </li>
             <li class="myNavButton">
-              <a href="/library">Library</a>
+              <a href="http://localhost:8000/library">Library</a>
             </li>
             <li class="myNavButton">
-              <a href="/registration">Join Us</a>
+              <a href="http://localhost:8000/registration">Join Us</a>
             </li>
             <li class="myNavButton">
               <a
-                href="/aboutUs"
+                href="http://localhost:8000/aboutUs"
                 style="color: #c90; background-color: #630; border-radius: 4px"
                 >About Us</a
               >
@@ -187,13 +186,3 @@ const generateAboutUsHTML = ()=>{
     </div>
   </body>
 </html>
-`
-}
-
-const getAboutUsHTML = (req, res) => {
-  const html = generateAboutUsHTML();
-  res.setHeader("Content-Type", "text/html");
-  return res.status(200).send(html);
-};
-
-export { getAboutUsHTML };

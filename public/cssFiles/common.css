@@ -1,0 +1,219 @@
+/* Base and Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font: 100% times, "times new romans", serif;
+  background: #300 url(/media/bg.jpg) no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  /* height: 100%; */
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Layout */
+#wrap {
+  color: #505050;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 950px;
+  background: url(/media/parchment.jpg) repeat-y top center;
+  background-size: 100% auto;
+  position: relative;
+  /* min-height: 100%; */
+}
+
+/* Header */
+#header {
+  margin: 0;
+  padding: 0 0 10px 0;
+  text-align: center;
+  background: url("/media/ornament.gif") no-repeat center bottom;
+  background-size: 80% auto;
+  overflow: hidden;
+}
+
+#header h1 {
+  font: 130% garamond, times, "times new romans", serif;
+  color: #630;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 10px 0 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#header h1 img {
+  padding: 0 15px;
+  max-width: 50px;
+}
+
+#header h2 {
+  font: 80% times, "times new romans", serif;
+  color: #505050;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 0px;
+  font-variant: small-caps;
+}
+
+/* Navigation */
+#nav {
+  margin: 0 auto;
+  padding: 10px 0 2vh 0;
+  list-style-type: none;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  border-top: 1px solid #600;
+  overflow-x: auto;
+}
+
+#nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+#nav li a {
+  padding: 5px 10px;
+  font: 600 1.1rem garamond, times, "times new romans", serif;
+  color: #990000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#nav li a:hover {
+  color: #300;
+  text-decoration: none;
+  border-radius: 4px;
+  background: url("/media/menuhover.jpg") repeat-x bottom left;
+}
+
+.myNavButton:hover {
+  color: var(--border-color);
+  background-color: #300;
+}
+
+/* Main content */
+#content {
+  margin: 0;
+  padding: 20px;
+  line-height: 1.7em;
+  width: 100%;
+}
+
+/* @media (max-width: 768px){
+  #nav{
+   padding: 10px 0 1vw 0; 
+  }
+}
+
+@media (max-width:480px) {
+  #nav{
+    padding: 10px 0 2px 0;
+  }
+} */
+
+/* Container to control the overall width and centering */
+.custom-marquee {
+  margin-top: 5px;
+  width: 100%;
+  max-width: 900px;
+  margin: 5px auto 0;
+  overflow: hidden;
+  border-radius: 8px;
+  padding: 2px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: scrollMarquee 20s linear infinite;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.7rem;
+  color: #300;
+}
+
+.marquee-track span {
+  display: inline-block;
+  padding-right: 100%;
+}
+
+/* THE REQUIRED ANIMATION KEYFRAMES */
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Keyframes for smooth scrolling */
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  #nav li a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .marquee-track {
+    font-size: 0.6rem;
+  }
+  #nav li a {
+    font-size: 0.9rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fbf6e4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}

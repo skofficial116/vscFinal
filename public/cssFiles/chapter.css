@@ -1,0 +1,319 @@
+/* Container & Chapter */
+:root {
+  --primary-color: #5c3d2e;
+  --secondary-color: #b85c38;
+  --bg-color: #fff8e6;
+  --text-color: #2d2424;
+  --accent-color: #e0c097;
+}
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdead1;
+  color: var(--text-color);
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* padding: 30px; */
+  padding: 1px 15px;
+  overflow: hidden;
+  width: 800px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0 auto;
+}
+
+.header h1 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.header .chapter-info {
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  font-style: italic;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 25px;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 12px 25px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  position: relative;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+  background-color: var(--accent-color);
+}
+
+.tab-button.active {
+  color: var(--secondary-color);
+}
+
+.tab-button.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: var(--secondary-color);
+}
+
+.tab-content {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+
+.tab-content.active {
+  display: block;
+}
+.chapter-info {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  font-style: italic;
+  margin-bottom: 15px;
+}
+.chapter-title {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.chapter-description {
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+.tab-button {
+  background: none;
+  border: none;
+  padding: 12px 25px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  position: relative;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.tab-button:hover {
+  background-color: #f5f5f5;
+}
+.tab-button.active {
+  color: var(--secondary-color);
+}
+.tab-button.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: var(--secondary-color);
+}
+.tab-content {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+.tab-content.active {
+  display: block;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Verses */
+.verses-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.shloka-summary {
+  background-color: #f9f5eb;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 5px solid var(--accent-color);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.shloka-summary:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+.shloka-summary a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.shloka-number {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+.shloka-translation {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+/* Focus Mode */
+.focus-mode-toggle {
+  display: block;
+  margin: 0 auto 10px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 8px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 10px;
+}
+
+.focus-mode-toggle:hover {
+  background-color: var(--secondary-color);
+}
+body.focus-mode {
+  background-color: #222;
+}
+
+body.focus-mode .container {
+  max-width: 750px;
+  background-color: #f5f2e9;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+body.focus-mode .shloka-summary {
+  background-color: white;
+}
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 5px 15px;
+    max-width: 700px;
+    width: 85vw;
+  }
+  .header h1 {
+    font-size: 1.8rem;
+  }
+  .chapter-title {
+    font-size: 1.5rem;
+  }
+  .chapter-description {
+    font-size: 0.95rem;
+  }
+  .tab-button {
+    padding: 7px 12px 5px 12px;
+  }
+  .verses-list {
+    grid-template-columns: 1fr;
+  }
+  .shloka-number {
+    font-size: 1rem;
+  }
+  .shloka-translation {
+    font-size: 0.9rem;
+  }
+  .nav-button {
+    padding: 0px 12px;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    width: 85vw;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  .tab-button {
+    padding: 7px 12px 5px 12px;
+    font-size: 0.75rem;
+  }
+  .chapter-title {
+    font-size: 1.3rem;
+  }
+  .chapter-description {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.navigation-buttons.next-only {
+  justify-content: flex-end;
+}
+
+.nav-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.nav-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.nav-button.prev-button::before {
+  content: "←";
+}
+
+.nav-button.next-button::after {
+  content: "→";
+}

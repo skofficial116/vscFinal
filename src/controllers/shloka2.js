@@ -1,10 +1,20 @@
 const library ={
-    bg:{    
+    bg:{ 
+         "introduction":{
+          "hindi":{
+
+          },
+          english:{
+
+          },
+          prevChapter:null,
+          nextChapter:"1"
+         },
         "1": {
           "titleEnglish": "Observing the Armies on the Battlefield of Kurukṣetra",
           "titleHindi":"कुरुक्षेत्र के युद्धस्थल में सैन्यनिरीक्षण",
-
-          "description": "",
+          "descriptionEnglish": "On the battlefield of Kurukṣetra, Arjuna asks Lord Krishna to place his chariot between the two armies. Seeing his relatives, friends, and teachers on both sides, Arjuna is overwhelmed by grief and compassion. He becomes mentally disturbed, fearing the destruction of family traditions and society. Despite being a warrior, he loses his resolve to fight and puts down his bow, refusing to engage in battle. This chapter sets the emotional and philosophical stage for the Gītā, showing Arjuna's confusion and the need for divine guidance.",
+          "descriptionHindi":"कुरुक्षेत्र के युद्धक्षेत्र में, अर्जुन भगवान कृष्ण से अपना रथ दोनों सेनाओं के बीच रखने के लिए कहता है। दोनों पक्षों के अपने रिश्तेदारों, मित्रों और शिक्षकों को देखकर अर्जुन दुःख और करुणा से अभिभूत हो जाता है। पारिवारिक परंपराओं और समाज के विनाश के डर से वह मानसिक रूप से परेशान हो जाता है। योद्धा होने के बावजूद, वह लड़ने का संकल्प खो देता है और युद्ध में शामिल होने से इनकार करते हुए अपना धनुष नीचे रख देता है। यह अध्याय गीता के लिए भावनात्मक और दार्शनिक मंच तैयार करता है, तथा अर्जुन की उलझन और ईश्वरीय मार्गदर्शन की आवश्यकता को दर्शाता है।",
           "verses": {
             "1": {
               "english": {
@@ -505,8 +515,8 @@ const library ={
             "20": {
               "english": {
                 "shloka": "atha vyavasthitān dṛṣṭvā<br>dhārtarāṣṭrān kapi-dhvajaḥ<br>pravṛtte śastra-sampāte<br>dhanur udyamya pāṇḍavaḥ<br>hṛṣīkeśaṁ tadā vākyam<br>idam āha mahī-pate",
-                "synonyms": "atha  —  thereupon ;  vyavasthitān  —  situated ;  dṛṣṭvā  —  looking upon ;  dhārtarāṣṭrān  —  the sons of Dhṛtarāṣṭra ;  kapi - dhvajaḥ  —  he whose flag was marked with Hanumān ;  pravṛtte  —  while about to engage ;  śastra - sampāte  —  in releasing his arrows ;  dhanuḥ  —  bow ;  udyamya  —  taking up ;  pāṇḍavaḥ  —  the son of Pāṇḍu (Arjuna) ;  hṛṣīkeśam  —  unto Lord Kṛṣṇa ;  tadā  —  at that time ;  vākyam  —  words ;  idam  —  these ;  āha  —  said ;  mahī - pate  —  O King .",
-                "translation": "At that time Arjuna, the son of Pāṇḍu, seated in the chariot bearing the flag marked with Hanumān, took up his bow and prepared to shoot his arrows. O King, after looking at the sons of Dhṛtarāṣṭra drawn in military array, Arjuna then spoke to Lord Kṛṣṇa these words.",
+                "synonyms": "atha  —  thereupon ;  vyavasthitān  —  situated ;  dṛṣṭvā  —  looking upon ;  dhārtarāṣṭrān  —  the sons of Dhṛtarāṣṭra ;  kapi - dhvajaḥ  —  he whose flag was ued with Hanumān ;  pravṛtte  —  while about to engage ;  śastra - sampāte  —  in releasing his arrows ;  dhanuḥ  —  bow ;  udyamya  —  taking up ;  pāṇḍavaḥ  —  the son of Pāṇḍu (Arjuna) ;  hṛṣīkeśam  —  unto Lord Kṛṣṇa ;  tadā  —  at that time ;  vākyam  —  words ;  idam  —  these ;  āha  —  said ;  mahī - pate  —  O King .",
+                "translation": "At that time Arjuna, the son of Pāṇḍu, seated in the chariot bearing the flag ued with Hanumān, took up his bow and prepared to shoot his arrows. O King, after looking at the sons of Dhṛtarāṣṭra drawn in military array, Arjuna then spoke to Lord Kṛṣṇa these words.",
                 "purport": [
                   "The battle was just about to begin. It is understood from the above statement that the sons of Dhṛtarāṣṭra were more or less disheartened by the unexpected arrangement of military force by the Pāṇḍavas, who were guided by the direct instructions of Lord Kṛṣṇa on the battlefield. The emblem of Hanumān on the flag of Arjuna is another sign of victory because Hanumān cooperated with Lord Rāma in the battle between Rāma and Rāvaṇa, and Lord Rāma emerged victorious. Now both Rāma and Hanumān were present on the chariot of Arjuna to help him. Lord Kṛṣṇa is Rāma Himself, and wherever Lord Rāma is, His eternal servitor Hanumān and His eternal consort Sītā, the goddess of fortune, are present. Therefore, Arjuna had no cause to fear any enemies whatsoever. And above all, the Lord of the senses, Lord Kṛṣṇa, was personally present to give him direction. Thus, all good counsel was available to Arjuna in the matter of executing the battle. In such auspicious conditions, arranged by the Lord for His eternal devotee, lay the signs of assured victory."
                 ]
@@ -716,7 +726,7 @@ const library ={
                 "translation": "Arjuna said: My dear Kṛṣṇa, seeing my friends and relatives present before me in such a fighting spirit, I feel the limbs of my body quivering and my mouth drying up.",
                 "purport": [
                   "Any man who has genuine devotion to the Lord has all the good qualities which are found in godly persons or in the demigods, whereas the nondevotee, however advanced he may be in material qualifications by education and culture, lacks in godly qualities. As such, Arjuna, just after seeing his kinsmen, friends and relatives on the battlefield, was at once overwhelmed by compassion for them who had so decided to fight amongst themselves. As far as his soldiers were concerned, he was sympathetic from the beginning, but he felt compassion even for the soldiers of the opposite party, foreseeing their imminent death. And while he was so thinking, the limbs of his body began to quiver, and his mouth became dry. He was more or less astonished to see their fighting spirit. Practically the whole community, all blood relatives of Arjuna, had come to fight with him. This overwhelmed a kind devotee like Arjuna. Although it is not mentioned here, still one can easily imagine that not only were Arjuna’s bodily limbs quivering and his mouth drying up, but he was also crying out of compassion. Such symptoms in Arjuna were not due to weakness but to his softheartedness, a characteristic of a pure devotee of the Lord. It is said therefore:",
-                  "yasyāsti bhaktir bhagavaty akiñcanāsarvair guṇais tatra samāsate surāḥharāv abhaktasya kuto mahad-guṇāmano-rathenāsati dhāvato bahiḥ",
+                  `<center><div class="shlokaInline">yasyāsti bhaktir bhagavaty akiñcanā <br>sarvair guṇais tatra samāsate surāḥ<br>harāv abhaktasya kuto mahad-guṇā<br>mano-rathenāsati dhāvato bahiḥ</div></center>`,
                   "“One who has unflinching devotion for the Personality of Godhead has all the good qualities of the demigods. But one who is not a devotee of the Lord has only material qualifications that are of little value. This is because he is hovering on the mental plane and is certain to be attracted by the glaring material energy.” (Bhāg. 5.18.12)"
                 ]
               },
@@ -725,7 +735,8 @@ const library ={
               "synonyms": "अर्जुनः उवाच – अर्जुन ने कहा; दृष्ट्वा – देख कर; इमम् – इन सारे; स्वजनम् – सम्बन्धियों को; कृष्ण – हे कृष्ण; युयुत्सुम् – युद्ध की इच्छा रखने वाले; समुपस्थितम् – उपस्थित; सीदन्ति – काँप रहे हैं; मम – मेरे; गात्राणि – शरीर के अंग; मुखम् – मुँह; च – भी; परिशुष्यति – सूख रहा है |",
               "translation": "अर्जुन ने कहा – हे कृष्ण! इस प्रकार युद्ध कि इच्छा रखने वाले मित्रों तथा सम्बन्धियों को अपने समक्ष उपस्थित देखकर मेरे शरीर के अंग काँप रहे हैं और मेरा मुँह सूखा जा रहा है |",
               "purport": [
-                "यथार्थ भक्ति से युक्त मनुष्य में वे सारे सद्गुण रहते हैं जो सत्पुरुषों या देवताओं में पाये जाते हैं जबकि अभक्त अपनी शिक्षा या संस्कृति के द्वारा भौतिक योग्यताओं में चाहे कितना ही उन्नत क्यों न हो इस इश्र्वरीय गुणों से विहीन होता है | अतः स्वजनों, मित्रों तथा सम्बन्धियों को युद्धभूमि में देखते ही अर्जुन उन सबों के लिए करुणा से अभिभूत हो गया, जिन्होनें परस्पर युद्ध करने का निश्चय किया था | जहाँ तक उसके अपने सैनिकों का सम्बन्ध थे, वह उनके प्रति प्रारम्भ से दयालु था, किन्तु विपक्षी दल के सैनिकों कि आसन्न मृत्यु को देखकर वह उन पर भी दया का अनुभव कर रहा था | और जब वह इस प्रकार सोच रहा था तो उसके अंगों में कंपन होने लगा और मुँह सूख गया | उन सबको युद्धाभिमुख देखकर उसे आश्चर्य भी हुआ | प्रायः सारा कुटुम्ब, अर्जुन के सगे सम्बन्धी उससे युद्ध करने आये थे | यद्यपि इसका उल्लेख नहीं है, किन्तु तो भी सहज अनुमान लगाया जा सकता है कि न केवल उसके अंग काँप रहे थे और मुँख सूख रहा था अपितु वह दयावश रुदन भी कर रहा था | अर्जुन में ऐसे लक्षण किसी दुर्बलता के कारण नहीं अपितु हृदय की कोमलता के कारण थे जो भगवान् के शुद्ध भक्त का लक्षण है | अतः कहा गया है – <br> <center>यस्यास्ति भक्तिर्भगवत्यकिंचना सर्वैर्गुणैस्तत्र समासते सुराः | <br>  हरावभक्तस्य कुतो महाद्गुणा मनोरथेनासति धावतो बहिः || </center>         “जो भगवान के प्रति अविचल भक्ति रखता है उसमें देवताओं के सद्गुण पाये जाते हैं | किन्तु जो भगवद्भक्त नहीं है उसके पास भौतिक योग्यताएँ ही रहती हैं जिनका कोई मूल्य नहीं होता | इसका कारण यह है कि वह मानसिक धरातल पर मँडराता रहता है और ज्वलन्त माया के द्वारा अवश्य ही आकृष्ट होता है |” <mark>(भागवत ५.९१८.१२)</mark>"
+                "यथार्थ भक्ति से युक्त मनुष्य में वे सारे सद्गुण रहते हैं जो सत्पुरुषों या देवताओं में पाये जाते हैं जबकि अभक्त अपनी शिक्षा या संस्कृति के द्वारा भौतिक योग्यताओं में चाहे कितना ही उन्नत क्यों न हो इस इश्र्वरीय गुणों से विहीन होता है | अतः स्वजनों, मित्रों तथा सम्बन्धियों को युद्धभूमि में देखते ही अर्जुन उन सबों के लिए करुणा से अभिभूत हो गया, जिन्होनें परस्पर युद्ध करने का निश्चय किया था | जहाँ तक उसके अपने सैनिकों का सम्बन्ध थे, वह उनके प्रति प्रारम्भ से दयालु था, किन्तु विपक्षी दल के सैनिकों कि आसन्न मृत्यु को देखकर वह उन पर भी दया का अनुभव कर रहा था | और जब वह इस प्रकार सोच रहा था तो उसके अंगों में कंपन होने लगा और मुँह सूख गया | उन सबको युद्धाभिमुख देखकर उसे आश्चर्य भी हुआ | प्रायः सारा कुटुम्ब, अर्जुन के सगे सम्बन्धी उससे युद्ध करने आये थे | यद्यपि इसका उल्लेख नहीं है, किन्तु तो भी सहज अनुमान लगाया जा सकता है कि न केवल उसके अंग काँप रहे थे और मुँख सूख रहा था अपितु वह दयावश रुदन भी कर रहा था | अर्जुन में ऐसे लक्षण किसी दुर्बलता के कारण नहीं अपितु हृदय की कोमलता के कारण थे जो भगवान् के शुद्ध भक्त का लक्षण है | अतः कहा गया है –",`<center><div class="shlokaInline">यस्यास्ति भक्तिर्भगवत्यकिंचना सर्वैर्गुणैस्तत्र समासते सुराः | <br>  हरावभक्तस्य कुतो महाद्गुणा मनोरथेनासति धावतो बहिः || </div></center>`,
+                "“जो भगवान के प्रति अविचल भक्ति रखता है उसमें देवताओं के सद्गुण पाये जाते हैं | किन्तु जो भगवद्भक्त नहीं है उसके पास भौतिक योग्यताएँ ही रहती हैं जिनका कोई मूल्य नहीं होता | इसका कारण यह है कि वह मानसिक धरातल पर मँडराता रहता है और ज्वलन्त माया के द्वारा अवश्य ही आकृष्ट होता है |” <u>(भागवत ५.९१८.१२)</u>"
               ]
             },
               "next": {
@@ -989,17 +1000,20 @@ const library ={
                 "synonyms": "saṅkaraḥ  —  such unwanted children ;  narakāya  —  make for hellish life ;  eva  —  certainly ;  kula - ghnānām  —  for those who are killers of the family ;  kulasya  —  for the family ;  ca  —  also ;  patanti  —  fall down ;  pitaraḥ  —  forefathers ;  hi  —  certainly ;  eṣām  —  of them ;  lupta  —  stopped ;  piṇḍa  —  of offerings of food ;  udaka  —  and water ;  kriyāḥ  —  performances .",
                 "translation": "An increase of unwanted population certainly causes hellish life both for the family and for those who destroy the family tradition. The ancestors of such corrupt families fall down, because the performances for offering them food and water are entirely stopped.",
                 "purport": [
-                  "According to the rules and regulations of fruitive activities, there is a need to offer periodical food and water to the forefathers of the family. This offering is performed by worship of Viṣṇu, because eating the remnants of food offered to Viṣṇu can deliver one from all kinds of sinful reactions. Sometimes the forefathers may be suffering from various types of sinful reactions, and sometimes some of them cannot even acquire a gross material body and are forced to remain in subtle bodies as ghosts. Thus, when remnants of prasādam food are offered to forefathers by descendants, the forefathers are released from ghostly or other kinds of miserable life. Such help rendered to forefathers is a family tradition, and those who are not in devotional life are required to perform such rituals. One who is engaged in the devotional life is not required to perform such actions. Simply by performing devotional service, one can deliver hundreds and thousands of forefathers from all kinds of misery. It is stated in the Bhāgavatam (11.5.41):",
-                  "devarṣi-bhūtāpta-nṛṇāṁ pitṝṇāṁna kiṅkaro nāyam ṛṇī ca rājansarvātmanā yaḥ śaraṇaṁ śaraṇyaṁgato mukundaṁ parihṛtya kartam",
+                  "According to the rules and regulations of fruitive activities, there is a need to offer periodical food and water to the forefathers of the family. This offering is performed by worship of Viṣṇu, because eating the remnants of food offered to Viṣṇu can deliver one from all kinds of sinful reactions. Sometimes the forefathers may be suffering from various types of sinful reactions, and sometimes some of them cannot even acquire a gross material body and are forced to remain in subtle bodies as ghosts. Thus, when remnants of prasādam food are offered to forefathers by descendants, the forefathers are released from ghostly or other kinds of miserable life. Such help rendered to forefathers is a family tradition, and those who are not in devotional life are required to perform such rituals. One who is engaged in the devotional life is not required to perform such actions. Simply by performing devotional service, one can deliver hundreds and thousands of forefathers from all kinds of misery. It is stated in the <u>Bhāgavatam (11.5.41):</u>",
+                  `<center><div class="shlokaInline">devarṣi-bhūtāpta-nṛṇāṁ pitṝṇāṁ <br> na kiṅkaro nāyam ṛṇī ca rājan <br> sarvātmanā yaḥ śaraṇaṁ śaraṇyaṁ <br> gato mukundaṁ parihṛtya kartam</div></center>`,
                   "“Anyone who has taken shelter of the lotus feet of Mukunda, the giver of liberation, giving up all kinds of obligation, and has taken to the path in all seriousness, owes neither duties nor obligations to the demigods, sages, general living entities, family members, humankind or forefathers.” Such obligations are automatically fulfilled by performance of devotional service to the Supreme Personality of Godhead."
                 ]
               },
               "hindi": {
-                  "shloka": "अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः |<br>        स्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसड्करः || ४० ||",
-                  "synonyms": "अधर्म – अधर्म; अभिभावत् – प्रमुख होने से; कृष्ण – हे कृष्ण; प्रदुष्यन्ति – दूषित हो जाती हैं; कुलस्त्रियः – कुल की स्त्रियाँ; स्त्रीषु – स्त्रीत्व के; दुष्टासु – दूषित होने से; वार्ष्णेय – हे वृष्णिवंशी; जायते – उत्पन्न होती है; वर्ण–सङकरः – अवांछित सन्तान |",
-                  "translation": "हे कृष्ण! जब कुल में अधर्म प्रमुख हो जाता है तो कुल की स्त्रियाँ दूषित हो जाती हैं और स्त्रीत्व के पतन से हे वृष्णिवंशी! अवांछित सन्तानें उत्पन्न होती हैं |",
+                  "shloka": "सड्करो नरकायैव कुलघ्नानां कुलस्य च | पतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः || ४१ ||",
+                  "synonyms": "सङकरः – ऐसे अवांछित बच्चे; नरकाय – नारकीय जीवन के लिए; एव – निश्चय ही; कुल-घ्नानाम् – कुल का वध करने वालों के; कुलस्य – कुल के; च – भी; पतन्ति – गिर जाते हैं; पितरः – पितृगण; हि – निश्चय ही; एषाम् – इनके; पिण्ड – पिण्ड अर्पण की; उदक – तथा जल की; क्रियाः – क्रिया, कृत्य |",
+                  "translation": "अवांछित सन्तानों की वृद्धि से निश्चय ही परिवार के लिए तथा पारिवारिक परम्परा को विनष्ट करने वालों के लिए नारकीय जीवन उत्पन्न होता है | ऐसे पतित कुलों के पुरखे (पितर लोग) गिर जाते हैं क्योंकि उन्हें जल तथा पिण्ड दान देने की क्रियाएँ समाप्त हो जाती हैं |",
                   "purport": [
-                    "जीवन में शान्ति, सुख तथा आध्यात्मिक उन्नति का मुख्य सिद्धान्त मानव समाज में अच्छी सन्तान का होना है | वर्णाश्रम धर्म के नियम इस प्रकार बनाये गये थे कि राज्य तथा जाति की आध्यात्मिक उन्नति के लिए समाज में अच्छी संतान उत्पन्न हो | ऐसी सन्तान समाज में स्त्री के सतीत्व और निष्ठा पर निर्भर करती है | जिस प्रकार बालक सरलता से कुमार्गगामी बन जाते हैं उसी प्रकार स्त्रियाँ भी पत्नोन्मुखी होती हैं | अतः बालकों तथा स्त्रियों दोनों को ही समाज के वयोवृद्धों का संरक्षण आवश्यक है | स्त्रियाँ विभिन्न धार्मिक प्रथाओं में संलग्न रहने पर व्यभिचारिणी नहीं होंगी | चाणक्य पंडित के अनुसार सामान्यतया स्त्रियाँ अधिक बुद्धिमान नहीं होतीं अतः वे विश्र्वसनीय नहीं हैं | इसलिए उन्हें विविध कुल-परम्पराओं में व्यस्त रहना चाहिए और इस तरह उनके सतीत्व तथा अनुरक्ति से ऐसी सन्तान जन्मेगी जो वर्णाश्रम धर्म में भाग लेने के योग्य होगी | ऐसे वर्णाश्रम-धर्म के विनाश से यह स्वाभाविक है कि स्त्रियाँ स्वतन्त्रतापूर्वक पुरुषों से मिल सकेंगी और व्यभिचार को प्रश्रय मिलेगा जिससे अवांछित सन्तानें उत्पन्न होंगी | निठल्ले लोग भी समाज में व्यभिचार को प्रेरित करते हैं और इस तरह अवांछित बच्चो की बाढ़ आ जाती है जिससे मानव जाति पर युद्ध और महामारी का संकट छा जाता है |"
+                    "सकाम कर्म के विधिविधानों के अनुसार कुल के पितरों को समय-समय पर जल तथा पिण्डदान दिया जाना चाहिए | यह दान विष्णु पूजा द्वारा किया जाता है क्योंकि विष्णु को अर्पित भोजन के उच्छिष्ट भाग (प्रसाद) के खाने से सारे पापकर्मों से उद्धार हो जाता है | कभी-कभी पितरगण विविध प्रकार के पापकर्मों से ग्रस्त हो सकते हैं और कभी-कभी उनमें से कुछ को स्थूल शरीर प्राप्त न हो सकने के कारण उन्हें प्रेतों के रूप में सूक्ष्म शरीर धारण करने के लिए बाध्य होना पड़ता है | अतः जब वंशजों द्वारा पितरों को बचा प्रसाद अर्पित किया जाता है तो उनका प्रेतयोनी या अन्य प्रकार के दुखमय जीवन से उद्धार होता है | पितरों को इस प्रकार कि सहायता पहुँचाना कुल-परम्परा है और जो लोग भक्ति का जीवन-यापन नहीं करते उन्हें ये अनुष्ठान करने होते हैं | केवल भक्ति करने से मनुष्य सैकड़ो क्या हजारों पितरों को ऐसे संकटों से उबार सकता है | भागवत में (११.५.४१) कहा गया है-",
+                    `<center><div class="shlokaInline">देवर्षि भूताप्तनृणां पितॄणां न किंकरो नायमृणी च राजन् |<br>
+सर्वात्मना यः शरणं शरण्यं गतो मुकुन्दं परिहृत्य कर्तम् ||</div></center>`,
+"“जो पुरुष अन्य समस्त कर्तव्यों को त्याग कर मुक्ति के दाता मुकुन्द के चरणकमलों कि शरण ग्रहण करता है और इस पथ पर गम्भीरतापूर्वक चलता है वह देवताओं, मुनियों, सामान्य जीवों, स्वजनों, मनुष्यों या पितरों के प्रति अपने कर्तव्य या ऋण से मुक्त हो जाता है |” श्रीभगवान् की सेवा करने से ऐसे दायित्व अपने आप पुरे हो जाते हैं |“"
                   ]
                 },
               "next": {
@@ -1168,12 +1182,13 @@ const library ={
             }
           },
           prevChapter:"introduction",
-          netChapter:"2"
+          nextChapter:"2"
         },
         "2": {
           "titleEnglish": "Contents of the Gītā Summarized",
           "titleHindi":"गीता का सार",
-          "description": null,
+          "descriptionEnglish": "Arjuna surrenders to Krishna and seeks guidance. Krishna begins by explaining the eternal nature of the soul—it never dies, only the body does. He teaches that performing one’s duty without attachment is the key to peace. This chapter introduces karma-yoga, the difference between the body and soul, the importance of acting without selfish desire, and the nature of true wisdom. Arjuna’s confusion begins to clear as Krishna outlines the path of spiritual realization and emphasizes performing one’s prescribed duty with equanimity.",
+          "descriptionHindi":"अर्जुन कृष्ण के सामने आत्मसमर्पण कर देता है और मार्गदर्शन मांगता है। कृष्ण आत्मा की शाश्वत प्रकृति की व्याख्या करके शुरू करते हैं—यह कभी नहीं मरती, केवल शरीर मरता है। वह सिखाते हैं कि आसक्ति के बिना अपना कर्तव्य निभाना शांति की कुंजी है। यह अध्याय कर्म-योग, शरीर और आत्मा के बीच अंतर, स्वार्थी इच्छा के बिना कार्य करने के महत्व और सच्चे ज्ञान की प्रकृति का परिचय देता है। अर्जुन की उलझन तब स्पष्ट होने लगती है जब कृष्ण आध्यात्मिक अनुभूति के मार्ग की रूपरेखा प्रस्तुत करते हैं और अपने निर्धारित कर्तव्य को समभाव से निभाने पर जोर देते हैं।",
           "verses": {
             "1": {
               "english": {
@@ -1211,28 +1226,26 @@ const library ={
                 "synonyms": "śrī - bhagavān   uvāca  —  the Supreme Personality of Godhead said ;  kutaḥ  —  wherefrom ;  tvā  —  unto you ;  kaśmalam  —  dirtiness ;  idam  —  this lamentation ;  viṣame  —  in this hour of crisis ;  samupasthitam  —  arrived ;  anārya  —  persons who do not know the value of life ;  juṣṭam  —  practiced by ;  asvargyam  —  which does not lead to higher planets ;  akīrti  —  infamy ;  karam  —  the cause of ;  arjuna  —  O Arjuna .",
                 "translation": "The Supreme Personality of Godhead said: My dear Arjuna, how have these impurities come upon you? They are not at all befitting a man who knows the value of life. They lead not to higher planets but to infamy.",
                 "purport": [
-                  "Kṛṣṇa and the Supreme Personality of Godhead are identical. Therefore Lord Kṛṣṇa is referred to as Bhagavān throughout the Gītā. Bhagavān is the ultimate in the Absolute Truth. The Absolute Truth is realized in three phases of understanding, namely Brahman, or the impersonal all-pervasive spirit; Paramātmā, or the localized aspect of the Supreme within the heart of all living entities; and Bhagavān, or the Supreme Personality of Godhead, Lord Kṛṣṇa. In the Śrīmad-Bhāgavatam (1.2.11) this conception of the Absolute Truth is explained thus:",
-                  "vadanti tat tattva-vidastattvaṁ yaj jñānam advayambrahmeti paramātmetibhagavān iti śabdyate",
-                  "“The Absolute Truth is realized in three phases of understanding by the knower of the Absolute Truth, and all of them are identical. Such phases of the Absolute Truth are expressed as Brahman, Paramātmā and Bhagavān.”",
+                  "Kṛṣṇa and the Supreme Personality of Godhead are identical. Therefore Lord Kṛṣṇa is referred to as Bhagavān throughout the Gītā. Bhagavān is the ultimate in the Absolute Truth. The Absolute Truth is realized in three phases of understanding, namely Brahman, or the impersonal all-pervasive spirit; Paramātmā, or the localized aspect of the Supreme within the heart of all living entities; and Bhagavān, or the Supreme Personality of Godhead, Lord Kṛṣṇa. In the <u>Śrīmad-Bhāgavatam (1.2.11)</u> this conception of the Absolute Truth is explained thus:",
+                  `<center><div class="shlokaInline">vadanti tat tattva-vidas <br> tattvaṁ yaj jñānam advayam <br> brahmeti paramātmeti <br> bhagavān iti śabdyate</div></center><br>“The Absolute Truth is realized in three phases of understanding by the knower of the Absolute Truth, and all of them are identical. Such phases of the Absolute Truth are expressed as Brahman, Paramātmā and Bhagavān.”`,
                   "These three divine aspects can be explained by the example of the sun, which also has three different aspects, namely the sunshine, the sun’s surface and the sun planet itself. One who studies the sunshine only is the preliminary student. One who understands the sun’s surface is further advanced. And one who can enter into the sun planet is the highest. Ordinary students who are satisfied by simply understanding the sunshine – its universal pervasiveness and the glaring effulgence of its impersonal nature – may be compared to those who can realize only the Brahman feature of the Absolute Truth. The student who has advanced still further can know the sun disc, which is compared to knowledge of the Paramātmā feature of the Absolute Truth. And the student who can enter into the heart of the sun planet is compared to those who realize the personal features of the Supreme Absolute Truth. Therefore, the bhaktas, or the transcendentalists who have realized the Bhagavān feature of the Absolute Truth, are the topmost transcendentalists, although all students who are engaged in the study of the Absolute Truth are engaged in the same subject matter. The sunshine, the sun disc and the inner affairs of the sun planet cannot be separated from one another, and yet the students of the three different phases are not in the same category.",
                   "The Sanskrit word bhagavān is explained by the great authority Parāśara Muni, the father of Vyāsadeva. The Supreme Personality who possesses all riches, all strength, all fame, all beauty, all knowledge and all renunciation is called Bhagavān. There are many persons who are very rich, very powerful, very beautiful, very famous, very learned and very much detached, but no one can claim that he possesses all riches, all strength, etc., entirely. Only Kṛṣṇa can claim this because He is the Supreme Personality of Godhead. No living entity, including Brahmā, Lord Śiva or Nārāyaṇa, can possess opulences as fully as Kṛṣṇa. Therefore it is concluded in the Brahma-saṁhitā by Lord Brahmā himself that Lord Kṛṣṇa is the Supreme Personality of Godhead. No one is equal to or above Him. He is the primeval Lord, or Bhagavān, known as Govinda, and He is the supreme cause of all causes:",
                   "īśvaraḥ paramaḥ kṛṣṇaḥsac-cid-ānanda-vigrahaḥanādir ādir govindaḥsarva-kāraṇa-kāraṇam",
                   "“There are many personalities possessing the qualities of Bhagavān, but Kṛṣṇa is the supreme because none can excel Him. He is the Supreme Person, and His body is eternal, full of knowledge and bliss. He is the primeval Lord Govinda and the cause of all causes.” (Brahma-saṁhitā 5.1)",
-                  "In the Bhāgavatam also there is a list of many incarnations of the Supreme Personality of Godhead, but Kṛṣṇa is described as the original Personality of Godhead, from whom many, many incarnations and Personalities of Godhead expand: <br> <div class='inShloka'>ete cāṁśa-kalāḥ puṁsaḥkṛṣṇas tu bhagavān svayamindrāri-vyākulaṁ lokaṁmṛḍayanti yuge yuge</div>",
-                  "“All the lists of the incarnations of Godhead submitted herewith are either plenary expansions or parts of the plenary expansions of the Supreme Godhead, but Kṛṣṇa is the Supreme Personality of Godhead Himself.” (Bhāg. 1.3.28)",
+                  "In the Bhāgavatam also there is a list of many incarnations of the Supreme Personality of Godhead, but Kṛṣṇa is described as the original Personality of Godhead, from whom many, many incarnations and Personalities of Godhead expand: <br> <center><div class='shlokaInline'>ete cāṁśa-kalāḥ puṁsaḥ <br> kṛṣṇas tu bhagavān svayam <br> indrāri-vyākulaṁ lokaṁ <br>mṛḍayanti yuge yuge</div> </center><br>“All the lists of the incarnations of Godhead submitted herewith are either plenary expansions or parts of the plenary expansions of the Supreme Godhead, but Kṛṣṇa is the Supreme Personality of Godhead Himself.” (Bhāg. 1.3.28)",
                   "Therefore, Kṛṣṇa is the original Supreme Personality of Godhead, the Absolute Truth, the source of both the Supersoul and the impersonal Brahman.",
                   "In the presence of the Supreme Personality of Godhead, Arjuna’s lamentation for his kinsmen is certainly unbecoming, and therefore Kṛṣṇa expressed His surprise with the word kutaḥ, “wherefrom.” Such impurities were never expected from a person belonging to the civilized class of men known as Āryans. The word āryan is applicable to persons who know the value of life and have a civilization based on spiritual realization. Persons who are led by the material conception of life do not know that the aim of life is realization of the Absolute Truth, Viṣṇu, or Bhagavān, and they are captivated by the external features of the material world, and therefore they do not know what liberation is. Persons who have no knowledge of liberation from material bondage are called non-Āryans. Although Arjuna was a kṣatriya, he was deviating from his prescribed duties by declining to fight. This act of cowardice is described as befitting the non-Āryans. Such deviation from duty does not help one in the progress of spiritual life, nor does it even give one the opportunity to become famous in this world. Lord Kṛṣṇa did not approve of the so-called compassion of Arjuna for his kinsmen."
                 ]
               },
              "hindi": {
-              "shloka": "श्रीभगवानुवाच<br>        कुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् |<br>        अनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन || २ ||",
+              "shloka": "श्रीभगवानुवाच<br>कुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् |<br>        अनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन || २ ||",
               "synonyms": "श्रीभगवान् उवाच – भगवान् ने कहा; कुतः – कहाँ से; त्वा – तुमको; कश्मलम् – गंदगी, अज्ञान; इदम् – यह शोक; विषमे – इस विषम अवसर पर; समुपस्थितम् – प्राप्त हुआ; अनार्य – वे लोग जो जीवन के मूल्य को नहीं समझते; जुष्टम् – आचरित; अस्वर्ग्यम् – उच्च लोकों को जो न ले जाने वाला; अकीर्ति – अपयश का; करम् – कारण; अर्जुन – हे अर्जुन |",
               "translation": "श्रीभगवान् ने कहा – हे अर्जुन! तुम्हारे मन में यह कल्मष आया कैसे? यह उस मनुष्य के लिए तनिक भी अनुकूल नहीं है, जो जीवन के मूल्य को जानता हो | इससे उच्चलोक की नहीं अपितु अपयश की प्राप्ति होती है |",
               "purport": [
-                "श्रीकृष्ण तथा भगवान् अभिन्न हैं, इसीलिए श्रीकृष्ण को सम्पूर्ण गीता में भगवान् ही कहा गया है | भगवान् परम सत्य की पराकाष्ठा हैं | परमसत्य का बोध ज्ञान की तीन अवस्थाओं में होता है – ब्रह्म या निर्विशेष सर्वव्यापी चेतना, परमात्मा या भगवान् का अन्तर्यामी रूप जो समस्त जीवों के हृदय में है तथा भगवान् या श्रीभगवान् कृष्ण | <mark>श्री मद्भागवत में (१.२.११) </mark> परम सत्य की यह धारणा इस प्रकार बताई गई है – <br> <div class='inShloka'>वदन्ति तत्तत्त्वविदस्तत्त्वं यज्यानमद्वयम् | ब्रह्मेति परमात्मेतिभगवानिति शब्द्यते || <div>“परम सत्य का ज्ञाता परमसत्य का अनुभव ज्ञान की तीन अवस्थाओं में करता है, और ये सब अवस्थाएँ एकरूप हैं | ये ब्रह्म, परमात्मा तथा भगवान् के रूप में व्यक्त की जाती हैं |”",
+                "श्रीकृष्ण तथा भगवान् अभिन्न हैं, इसीलिए श्रीकृष्ण को सम्पूर्ण गीता में भगवान् ही कहा गया है | भगवान् परम सत्य की पराकाष्ठा हैं | परमसत्य का बोध ज्ञान की तीन अवस्थाओं में होता है – ब्रह्म या निर्विशेष सर्वव्यापी चेतना, परमात्मा या भगवान् का अन्तर्यामी रूप जो समस्त जीवों के हृदय में है तथा भगवान् या श्रीभगवान् कृष्ण | <u>श्री मद्भागवत में (१.२.११) </u> परम सत्य की यह धारणा इस प्रकार बताई गई है – <br> <center><div class='shlokaInline'>वदन्ति तत्तत्त्वविदस्तत्त्वं यज्यानमद्वयम् | ब्रह्मेति परमात्मेतिभगवानिति शब्द्यते || </div></center><br>“परम सत्य का ज्ञाता परमसत्य का अनुभव ज्ञान की तीन अवस्थाओं में करता है, और ये सब अवस्थाएँ एकरूप हैं | ये ब्रह्म, परमात्मा तथा भगवान् के रूप में व्यक्त की जाती हैं |”",
                 "इन तीन दिव्य पक्षों को सूर्य के दृष्टान्त द्वारा समझाया जा सकता है क्योंकि उसके भी तीन भिन्न पक्ष होते हैं – यथा, धूप(प्रकाश), सूर्य की सतह तथा सूर्यलोक स्वयं | जो सूर्य के प्रकाश का अध्ययन करता है वह नौसिखिया है | जो सूर्य की सतह को समझता है वह कुछ आगे बढ़ा हुआ होता है और जो सूर्यलोक में प्रवेश कर सकता है वह उच्चतम ज्ञानी है | जो नौसिखिया सूर्य प्रकाश – उसकी विश्र्व व्याप्ति तथा उसकी निर्विशेष प्रकृति के अखण्ड तेज – के ज्ञान से ही तुष्ट हो जाता है वह उस व्यक्ति के समान है जो परम सत्य के ब्रह्म रूप को ही समझ सकता है | जो व्यक्ति कुछ अधिक जानकार है वह सूर्य गोले के विषय में जान सकता है जिसकी तुलना परम सत्य के परमात्मा स्वरूप से की जाति है | जो व्यक्ति सूर्यलोक के अन्तर में प्रवेश कर सकता है उसकी तुलना उससे की जाती है जो परम सत्य के साक्षात् रूप की अनुभूति प्राप्त करता है | अतः जिन भक्तों ने परमसत्य के भगवान् स्वरूप का साक्षात्कार किया है वे सर्वोच्च अध्यात्मवादी हैं, यद्यपि परम सत्य के अध्ययन में रत सारे विद्यार्थी एक ही विषय के अध्ययन में लगे हुए हैं | सूर्य का प्रकाश, सूर्य का गोला तथा सूर्यलोक की भीतरी बातें – इन तीनों को एक दूसरे से विलग नहीं किया जा सकता, फिर भी तीनों अवस्थाओं के अध्येता एक ही श्रेणी के नहीं होते | ",
-                "संस्कृत शब्द भगवान् कि व्याख्या व्यासदेव के पिता पराशर मुनि ने की है | समस्त धन, शक्ति, यश, सौंदर्य, ज्ञान तथा त्याग से युक्त परम पुरुष भगवान् कहलाता है | ऐसे अनेक व्यक्ति हैं जो अत्यन्त धनी हैं, अत्यन्त शक्तिमान हैं, अत्यन्त सुन्दर हैं और अत्यन्त विख्यात, विद्वान् तथा विरक्त भी हैं, किन्तु कोई साधिकार यह नहीं कह सकता कि उसके पास सारा धन, शक्ति आदि है | एकमात्र कृष्ण ही ऐसा दावा कर सकते हैं क्योंकि वे भगवान् हैं | ब्रह्मा, शिव या नारायण सहित कोई भी जीव कृष्ण के समान पूर्ण एश्र्वर्यवान नहीं है | अतः ब्रह्मसंहिता में स्वयं ब्रह्माजी का निर्णय है कि श्रीकृष्ण स्वयं भगवान् हैं | न तो कोई उनके तुल्य है, न उनसे बढ़कर है | वे आदि स्वामी या भगवान् हैं, गोविन्द रूप में जाने जाते हैं और समस्त कारणों के परम कारण हैं – <br> <div class='inShloka'>ईश्र्वरः परमः कृष्णः सच्चिदानन्द विग्रहः | <br>अनादिरादिर्गोविन्दः सर्वकारणकारणम् ||<div>“ऐसे अनेक पुरुष हैं जो भगवान् के गुणों से युक्त हैं, किन्तु कृष्ण परम हैं क्योंकि उनसे बढ़कर कोई नहीं है | वे परमपुरुष हैं और उनका शरीर सच्चिदानन्दमय है | वे आदि भगवान् गोविन्द हैं और समस्त कारणों के कारण हैं |” <mark>(ब्रह्मसंहिता ५.१)</mark>",
-                "भागवत में भी भगवान् के नाना अवतारों की सूची है, कृष्ण को आदि भगवान् बताया गया है, जिससे अनेकानेक अवतार तथा ईश्वर विस्तार करते हैं –<br> <div class='inShloka'>एते चांशकलाः पुंसः कृष्णस्तु भगवान् स्वयम् |<br> इन्द्रारिव्याकुलं लोकं मृडयन्ति युगे युगे || <div> “यहाँ पर वर्णित सारे अवतारों की सूचियाँ या तो भगवान् की अंशकलाओं अथवा पूर्ण कलाओं की हैं, किन्तु कृष्ण तो स्वयं भगवान् हैं |” <mark>(भागवत १.३.२८)</mark>",
+                "संस्कृत शब्द भगवान् कि व्याख्या व्यासदेव के पिता पराशर मुनि ने की है | समस्त धन, शक्ति, यश, सौंदर्य, ज्ञान तथा त्याग से युक्त परम पुरुष भगवान् कहलाता है | ऐसे अनेक व्यक्ति हैं जो अत्यन्त धनी हैं, अत्यन्त शक्तिमान हैं, अत्यन्त सुन्दर हैं और अत्यन्त विख्यात, विद्वान् तथा विरक्त भी हैं, किन्तु कोई साधिकार यह नहीं कह सकता कि उसके पास सारा धन, शक्ति आदि है | एकमात्र कृष्ण ही ऐसा दावा कर सकते हैं क्योंकि वे भगवान् हैं | ब्रह्मा, शिव या नारायण सहित कोई भी जीव कृष्ण के समान पूर्ण एश्र्वर्यवान नहीं है | अतः ब्रह्मसंहिता में स्वयं ब्रह्माजी का निर्णय है कि श्रीकृष्ण स्वयं भगवान् हैं | न तो कोई उनके तुल्य है, न उनसे बढ़कर है | वे आदि स्वामी या भगवान् हैं, गोविन्द रूप में जाने जाते हैं और समस्त कारणों के परम कारण हैं – <br> <center><div class='shlokaInline'>ईश्र्वरः परमः कृष्णः सच्चिदानन्द विग्रहः | <br>अनादिरादिर्गोविन्दः सर्वकारणकारणम् ||</div></center><br><br>“ऐसे अनेक पुरुष हैं जो भगवान् के गुणों से युक्त हैं, किन्तु कृष्ण परम हैं क्योंकि उनसे बढ़कर कोई नहीं है | वे परमपुरुष हैं और उनका शरीर सच्चिदानन्दमय है | वे आदि भगवान् गोविन्द हैं और समस्त कारणों के कारण हैं |” <u>(ब्रह्मसंहिता ५.१)</u>",
+                "भागवत में भी भगवान् के नाना अवतारों की सूची है, कृष्ण को आदि भगवान् बताया गया है, जिससे अनेकानेक अवतार तथा ईश्वर विस्तार करते हैं –<br> <center><div class='shlokaInline'>एते चांशकलाः पुंसः कृष्णस्तु भगवान् स्वयम् |<br> इन्द्रारिव्याकुलं लोकं मृडयन्ति युगे युगे || </div></center><br><br> “यहाँ पर वर्णित सारे अवतारों की सूचियाँ या तो भगवान् की अंशकलाओं अथवा पूर्ण कलाओं की हैं, किन्तु कृष्ण तो स्वयं भगवान् हैं |” <u>(भागवत १.३.२८)</u>",
                 "अतः कृष्ण आदि भगवान्, परम सत्य, परमात्मा तथा निर्विशेष ब्रह्म दोनों के अद्गम है |",
                 "भगवान् कि उपस्थिति में अर्जुन द्वारा स्वजनों के लिए शोक करना सर्वथा अशोभनीय है, अतः कृष्ण ने कुतः शब्द से अपना आश्चर्य व्यक्त किया है | आर्य जैसी सभ्य जाति के किसी व्यक्ति से ऐसी मलिनता की उम्मीद नहीं की जाती | आर्य शब्द उन व्यक्तियों पर लागू होता है जो जीवन के मूल्य को जानते हैं और जिनकी सभ्यताआत्म-साक्षात्कार पर निर्भर करती है | देहात्मबुद्धि से प्रेरित मनुष्यों को यह ज्ञान नहीं रहता कि जीवन का उद्देश्य परम सत्य, विष्णु या भगवान् का साक्षात्कार है | वे तो भौतिक जगत के बाह्य स्वरूप से मोहित हो जाते हैं, अतः वे यह नहीं समझ पाते कि मुक्ति क्या है | जिन पुरुषों को भौतिक बन्धन से मुक्ति का कोई ज्ञान नहीं होता वे अनार्य कहलाते हैं | यद्यपि अर्जुन क्षत्रिय था, किन्तु युद्ध से विचलित होकर वह अपने कर्तव्य से च्युत हो रहा था उसकी यह कायरता अनार्यों के लिए ही शोभा देने वाली हो सकती है | कर्तव्य-पथ से इस प्रकार का विचलन न तो आध्यात्मिक जीवन की प्रगति करने में सहायक बनता है न ही इससे संसार में ख्याति प्राप्त की जा सकती है | भगवान् कृष्ण ने अर्जुन द्वारा अपने स्वजनों पर इस प्रकार की करुणा का अनुमोदन नहीं किया |"
               ]
@@ -2448,7 +2461,7 @@ const library ={
                 "synonyms": "trai - guṇya  —  pertaining to the three modes of material nature ;  viṣayāḥ  —  on the subject matter ;  vedāḥ  —  Vedic literatures ;  nistrai - guṇyaḥ  —  transcendental to the three modes of material nature ;  bhava  —  be ;  arjuna  —  O Arjuna ;  nirdvandvaḥ  —  without duality ;  nitya - sattva - sthaḥ  —  in a pure state of spiritual existence ;  niryoga - kṣemaḥ  —  free from ideas of gain and protection ;  ātma - vān  —  established in the self .",
                 "translation": "The Vedas deal mainly with the subject of the three modes of material nature. O Arjuna, become transcendental to these three modes. Be free from all dualities and from all anxieties for gain and safety, and be established in the self.",
                 "purport": [
-                  "All material activities involve actions and reactions in the three modes of material nature. They are meant for fruitive results, which cause bondage in the material world. The Vedas deal mostly with fruitive activities to gradually elevate the general public from the field of sense gratification to a position on the transcendental plane. Arjuna, as a student and friend of Lord Kṛṣṇa, is advised to raise himself to the transcendental position of Vedānta philosophy where, in the beginning, there is brahma-jijñāsā, or questions on the supreme transcendence. All the living entities who are in the material world are struggling very hard for existence. For them the Lord, after creation of the material world, gave the Vedic wisdom advising how to live and get rid of the material entanglement. When the activities for sense gratification, namely the karma-kāṇḍa chapter, are finished, then the chance for spiritual realization is offered in the form of the Upaniṣads, which are part of different Vedas, as the Bhagavad-gītā is a part of the fifth Veda, namely the Mahābhārata. The Upaniṣads mark the beginning of transcendental life.",
+                  "All material activities involve actions and reactions in the three modes of material nature. They are meant for fruitive results, which cause bondage in the material world. The Vedas deal mostly with fruitive activities to gradually elevate the general public from the field of sense gratification to a position on the transcendental plane. Arjuna, as a student and friend of Lord Kṛṣṇa, is advised to raise himself to the transcendental position of Vedānta philosophy where, in the beginning, there is brahma-jijñāsā, or questions on the supreme transcendence. All the living entities who are in the material world are struggling very hard for existence. For them the Lord, after creation of the material world, gave the Vedic wisdom advising how to live and get rid of the material entanglement. When the activities for sense gratification, namely the karma-kāṇḍa chapter, are finished, then the chance for spiritual realization is offered in the form of the Upaniṣads, which are part of different Vedas, as the Bhagavad-gītā is a part of the fifth Veda, namely the Mahābhārata. The Upaniṣads u the beginning of transcendental life.",
                   "As long as the material body exists, there are actions and reactions in the material modes. One has to learn tolerance in the face of dualities such as happiness and distress, or cold and warmth, and by tolerating such dualities become free from anxieties regarding gain and loss. This transcendental position is achieved in full Kṛṣṇa consciousness when one is fully dependent on the good will of Kṛṣṇa."
                 ]
               },
@@ -2917,7 +2930,7 @@ const library ={
                   "mukunda-liṅgālaya-darśane dṛśautad-bhṛtya-gātra-sparśe ’ṅga-saṅgamamghrāṇaṁ ca tat-pāda-saroja-saurabheśrīmat-tulasyā rasanāṁ tad-arpite",
                   "pādau hareḥ kṣetra-padānusarpaṇeśiro hṛṣīkeśa-padābhivandanekāmaṁ ca dāsye na tu kāma-kāmyayāyathottama-śloka-janāśrayā ratiḥ",
                   "“King Ambarīṣa fixed his mind on the lotus feet of Lord Kṛṣṇa, engaged his words in describing the abode of the Lord, his hands in cleansing the temple of the Lord, his ears in hearing the pastimes of the Lord, his eyes in seeing the form of the Lord, his body in touching the body of the devotee, his nostrils in smelling the flavor of the flowers offered to the lotus feet of the Lord, his tongue in tasting the tulasī leaves offered to Him, his legs in traveling to the holy place where His temple is situated, his head in offering obeisances unto the Lord, and his desires in fulfilling the desires of the Lord … and all these qualifications made him fit to become a mat-para devotee of the Lord.”",
-                  "The word mat-para is most significant in this connection. How one can become mat-para is described in the life of Mahārāja Ambarīṣa. Śrīla Baladeva Vidyābhūṣaṇa, a great scholar and ācārya in the line of the mat-para, remarks, mad-bhakti-prabhāvena sarvendriya-vijaya-pūrvikā svātma-dṛṣṭiḥ su-labheti bhāvaḥ. “The senses can be completely controlled only by the strength of devotional service to Kṛṣṇa.” Also, the example of fire is sometimes given: “As a blazing fire burns everything within a room, Lord Viṣṇu, situated in the heart of the yogī, burns up all kinds of impurities.” The Yoga-sūtra also prescribes meditation on Viṣṇu, and not meditation on the void. The so-called yogīs who meditate on something other than the Viṣṇu form simply waste their time in a vain search after some phantasmagoria. We have to be Kṛṣṇa conscious – devoted to the Personality of Godhead. This is the aim of the real yoga."
+                  "The word mat-para is most significant in this connection. How one can become mat-para is described in the life of Mahārāja Ambarīṣa. Śrīla Baladeva Vidyābhūṣaṇa, a great scholar and ācārya in the line of the mat-para, reus, mad-bhakti-prabhāvena sarvendriya-vijaya-pūrvikā svātma-dṛṣṭiḥ su-labheti bhāvaḥ. “The senses can be completely controlled only by the strength of devotional service to Kṛṣṇa.” Also, the example of fire is sometimes given: “As a blazing fire burns everything within a room, Lord Viṣṇu, situated in the heart of the yogī, burns up all kinds of impurities.” The Yoga-sūtra also prescribes meditation on Viṣṇu, and not meditation on the void. The so-called yogīs who meditate on something other than the Viṣṇu form simply waste their time in a vain search after some phantasmagoria. We have to be Kṛṣṇa conscious – devoted to the Personality of Godhead. This is the aim of the real yoga."
                 ]
               },
               "hindi": {
@@ -3250,12 +3263,15 @@ const library ={
                 "shloka": 72
               }
             }
-          }
+          },
+          prevChapter:"1",
+          nextChapter:"3"
         },
         "3": {
           "titleEnglish": "Karma-yoga",
           "titleHindi":"कर्मयोग",
-          "description": null,
+          "descriptionEnglish": "Krishna emphasizes the importance of selfless action, done as a sacrifice for the Supreme, without attachment to results. Even renunciation must be understood as internal detachment while still performing one’s duty. He explains how society functions harmoniously when all perform their duties. Krishna also warns against setting a bad example, urging leaders to act rightly. Acting without selfish motives purifies the heart and leads one toward liberation. This chapter is central to understanding karma-yoga—working without attachment and offering the results to God.",
+          "descriptionHindi":"कृष्ण परिणामों के प्रति आसक्ति के बिना, परमपिता के लिए बलिदान के रूप में किए गए निस्वार्थ कार्य के महत्व पर बल देते हैं। यहां तक कि त्याग को भी अपना कर्तव्य निभाते हुए आंतरिक वैराग्य के रूप में समझा जाना चाहिए। वह बताते हैं कि जब सभी लोग अपने कर्तव्यों का पालन करते हैं तो समाज किस प्रकार सामंजस्यपूर्ण ढंग से कार्य करता है। कृष्ण ने नेताओं से सही तरीके से कार्य करने का आग्रह करते हुए एक बुरा उदाहरण स्थापित करने के खिलाफ भी चेतावनी दी है। स्वार्थी उद्देश्यों के बिना कार्य करने से हृदय शुद्ध होता है और व्यक्ति मुक्ति की ओर अग्रसर होता है। यह अध्याय कर्म-योग—बिना आसक्ति के कार्य करना और उसके परिणाम ईश्वर को अर्पित करना को समझने के लिए केन्द्रीय है।",
           "verses": {
             "1": {
               "english": {
@@ -4491,12 +4507,15 @@ const library ={
                 "shloka": 43
               }
             }
-          }
+          },
+          prevChapter:"2",
+          nextChapter:"4"
         },
         "4": {
           "titleEnglish": "Transcendental Knowledge",
           "titleHindi":"दिव्य ज्ञान",
-          "description": null,
+          "descriptionEnglish": "Krishna reveals that he periodically descends to Earth whenever dharma declines, to protect devotees and reestablish righteousness. He explains the divine nature of his birth and activities. Transcendental knowledge is received through disciplic succession (guru-paramparā), not speculation. Krishna teaches that one who acts in knowledge and devotion is not bound by karma. This chapter blends karma-yoga and jñāna-yoga and highlights the importance of approaching a bona fide spiritual master to understand spiritual truth. True knowledge burns away all reactions to past karma.",
+"descriptionHindi":"कृष्ण बताते हैं कि जब भी धर्म का पतन होता है, तो वे भक्तों की रक्षा करने और धार्मिकता को पुनः स्थापित करने के लिए समय-समय पर पृथ्वी पर उतरते हैं। वह अपने जन्म और गतिविधियों की दिव्य प्रकृति की व्याख्या करता है। पारलौकिक ज्ञान शिष्य उत्तराधिकार (गुरु-परमपारा) के माध्यम से प्राप्त होता है, अटकलों के माध्यम से नहीं। कृष्ण सिखाते हैं कि जो ज्ञान और भक्ति में कार्य करता है वह कर्म से बंधा नहीं है। यह अध्याय कर्म-योग और ज्ञान-योग का मिश्रण करता है तथा आध्यात्मिक सत्य को समझने के लिए एक सच्चे आध्यात्मिक गुरु से संपर्क करने के महत्व पर प्रकाश डालता है। सच्चा ज्ञान पिछले कर्मों के प्रति सभी प्रतिक्रियाओं को जला देता है।",
           "verses": {
             "1": {
               "english": {
@@ -5211,7 +5230,7 @@ const library ={
                 "synonyms": "daivam  —  in worshiping the demigods ;  eva  —  like this ;  apare  —  some others ;  yajñam  —  sacrifices ;  yoginaḥ  —  mystics ;  paryupāsate  —  worship perfectly ;  brahma  —  of the Absolute Truth ;  agnau  —  in the fire ;  apare  —  others ;  yajñam  —  sacrifice ;  yajñena  —  by sacrifice ;  eva  —  thus ;  upajuhvati  —  offer .",
                 "translation": "Some yogīs perfectly worship the demigods by offering different sacrifices to them, and some offer sacrifices in the fire of the Supreme Brahman.",
                 "purport": [
-                  "As described above, a person engaged in discharging duties in Kṛṣṇa consciousness is also called a perfect yogī or a first-class mystic. But there are others also, who perform similar sacrifices in the worship of demigods, and still others who sacrifice to the Supreme Brahman, or the impersonal feature of the Supreme Lord. So there are different kinds of sacrifices in terms of different categories. Such different categories of sacrifice by different types of performers only superficially demark varieties of sacrifice. Factually sacrifice means to satisfy the Supreme Lord, Viṣṇu, who is also known as Yajña. All the different varieties of sacrifice can be placed within two primary divisions: namely, sacrifice of worldly possessions and sacrifice in pursuit of transcendental knowledge. Those who are in Kṛṣṇa consciousness sacrifice all material possessions for the satisfaction of the Supreme Lord, while others, who want some temporary material happiness, sacrifice their material possessions to satisfy demigods such as Indra, the sun-god, etc. And others, who are impersonalists, sacrifice their identity by merging into the existence of impersonal Brahman. The demigods are powerful living entities appointed by the Supreme Lord for the maintenance and supervision of all material functions like the heating, watering and lighting of the universe. Those who are interested in material benefits worship the demigods by various sacrifices according to the Vedic rituals. They are called bahv-īśvara-vādī, or believers in many gods. But others, who worship the impersonal feature of the Absolute Truth and regard the forms of the demigods as temporary, sacrifice their individual selves in the supreme fire and thus end their individual existences by merging into the existence of the Supreme. Such impersonalists sacrifice their time in philosophical speculation to understand the transcendental nature of the Supreme. In other words, the fruitive workers sacrifice their material possessions for material enjoyment, whereas the impersonalist sacrifices his material designations with a view to merging into the existence of the Supreme. For the impersonalist, the fire altar of sacrifice is the Supreme Brahman, and the offering is the self being consumed by the fire of Brahman. The Kṛṣṇa conscious person, like Arjuna, however, sacrifices everything for the satisfaction of Kṛṣṇa, and thus all his material possessions as well as his own self – everything – is sacrificed for Kṛṣṇa. Thus, he is the first-class yogī; but he does not lose his individual existence."
+                  "As described above, a person engaged in discharging duties in Kṛṣṇa consciousness is also called a perfect yogī or a first-class mystic. But there are others also, who perform similar sacrifices in the worship of demigods, and still others who sacrifice to the Supreme Brahman, or the impersonal feature of the Supreme Lord. So there are different kinds of sacrifices in terms of different categories. Such different categories of sacrifice by different types of performers only superficially deu varieties of sacrifice. Factually sacrifice means to satisfy the Supreme Lord, Viṣṇu, who is also known as Yajña. All the different varieties of sacrifice can be placed within two primary divisions: namely, sacrifice of worldly possessions and sacrifice in pursuit of transcendental knowledge. Those who are in Kṛṣṇa consciousness sacrifice all material possessions for the satisfaction of the Supreme Lord, while others, who want some temporary material happiness, sacrifice their material possessions to satisfy demigods such as Indra, the sun-god, etc. And others, who are impersonalists, sacrifice their identity by merging into the existence of impersonal Brahman. The demigods are powerful living entities appointed by the Supreme Lord for the maintenance and supervision of all material functions like the heating, watering and lighting of the universe. Those who are interested in material benefits worship the demigods by various sacrifices according to the Vedic rituals. They are called bahv-īśvara-vādī, or believers in many gods. But others, who worship the impersonal feature of the Absolute Truth and regard the forms of the demigods as temporary, sacrifice their individual selves in the supreme fire and thus end their individual existences by merging into the existence of the Supreme. Such impersonalists sacrifice their time in philosophical speculation to understand the transcendental nature of the Supreme. In other words, the fruitive workers sacrifice their material possessions for material enjoyment, whereas the impersonalist sacrifices his material designations with a view to merging into the existence of the Supreme. For the impersonalist, the fire altar of sacrifice is the Supreme Brahman, and the offering is the self being consumed by the fire of Brahman. The Kṛṣṇa conscious person, like Arjuna, however, sacrifices everything for the satisfaction of Kṛṣṇa, and thus all his material possessions as well as his own self – everything – is sacrificed for Kṛṣṇa. Thus, he is the first-class yogī; but he does not lose his individual existence."
                 ]
               },
               "hindi": {
@@ -5713,12 +5732,15 @@ const library ={
                 "shloka": 42
               }
             }
-          }
+          },
+           prevChapter:"3",
+          nextChapter:"5"
         },
         "5": {
           "titleEnglish": "Karma-yoga – Action in Kṛṣṇa Consciousness",
           "titleHindi":"कर्मयोग - कृष्णभावनाभावित कर्म",
-          "description": null,
+          "descriptionEnglish": "Krishna explains that real renunciation does not mean giving up activity but surrendering the results of action to him. The wise see all beings equally and live free from envy, lust, and anger. Those who engage in devotional service, with purified consciousness, attain peace and liberation. Both renunciation (sannyāsa) and action in devotion (karma-yoga) lead to liberation, but karma-yoga is easier and more practical. Devotees live joyfully, detached from dualities, and attain eternal happiness by fixing the mind on Krishna.",
+"descriptionHindi":"कृष्ण बताते हैं कि वास्तविक त्याग का अर्थ कार्य छोड़ देना नहीं है, बल्कि कार्य के परिणामों को उसे सौंप देना है। बुद्धिमान सभी प्राणियों को समान रूप से देखते हैं और ईर्ष्या, वासना और क्रोध से मुक्त रहते हैं। जो लोग शुद्ध चेतना के साथ भक्ति सेवा में संलग्न होते हैं, वे शांति और मुक्ति प्राप्त करते हैं। त्याग (संन्यास) और भक्ति में कर्म (कर्म-योग) दोनों ही मुक्ति की ओर ले जाते हैं, लेकिन कर्म-योग अधिक आसान और व्यावहारिक है। भक्तगण आनंदपूर्वक जीवन जीते हैं, द्वैत से दूर रहते हैं, तथा कृष्ण पर मन लगाकर शाश्वत सुख प्राप्त करते हैं।",
           "verses": {
             "1": {
               "english": {
@@ -6452,12 +6474,15 @@ const library ={
                 "shloka": 29
               }
             }
-          }
+          },
+          prevChapter:"4",
+          nextChapter:"6"
         },
         "6": {
           "titleEnglish": "Dhyāna-yoga",
           "titleHindi":"ध्यानयोग",
-          "description": null,
+          "descriptionEnglish": "Krishna explains the path of meditation (dhyāna-yoga). A true yogi controls the mind and senses, lives simply, and meditates on the Supreme within the heart. The highest yogi is one who constantly thinks of Krishna with devotion. The chapter details the techniques and discipline required for success in meditation, emphasizing renunciation, focus, and detachment. Ultimately, Krishna concludes that bhakti-yoga (devotional service) is superior even to meditation. Among all yogis, the one with unwavering devotion to Krishna is the highest.",
+"descriptionHindi":"कृष्ण ध्यान (ध्यान-योग) का मार्ग समझाते हैं। एक सच्चा योगी मन और इन्द्रियों को नियंत्रित करता है, सरलता से जीवन जीता है, तथा हृदय के भीतर स्थित परम तत्व का ध्यान करता है। सर्वोच्च योगी वह है जो निरंतर कृष्ण के बारे में भक्तिपूर्वक सोचता रहता है। इस अध्याय में ध्यान में सफलता के लिए आवश्यक तकनीकों और अनुशासन का विवरण दिया गया है, तथा त्याग, ध्यान और वैराग्य पर जोर दिया गया है। अंततः कृष्ण इस निष्कर्ष पर पहुंचते हैं कि भक्ति-योग (भक्ति सेवा) ध्यान से भी श्रेष्ठ है। सभी योगियों में कृष्ण के प्रति अटूट भक्ति रखने वाला व्यक्ति सर्वोच्च है।",
           "verses": {
             "1": {
               "english": {
@@ -7608,12 +7633,15 @@ const library ={
                 "shloka": 47
               }
             }
-          }
+          },
+          prevChapter:"5",
+          nextChapter:"7"
         },
         "7": {
           "titleEnglish": "Knowledge of the Absolute",
           "titleHindi":"भगवद्ज्ञान",
-          "description": null,
+          "descriptionEnglish": "Krishna describes his energies—both material and spiritual—and explains how everything rests in him, though he remains separate. Few people know him in truth. Krishna explains that everything, including the mind, intelligence, and ego, is his separated energy. He also discusses the rarity of those who truly surrender to him. Most people worship demigods or are bewildered by material desires. True spiritual knowledge means understanding Krishna as the origin of everything and surrendering to him with devotion.",
+"descriptionHindi":"कृष्ण अपनी ऊर्जाओं —भौतिक और आध्यात्मिक दोनों— का वर्णन करते हैं और बताते हैं कि कैसे सब कुछ उनमें निहित है, यद्यपि वे अलग-अलग रहते हैं। बहुत कम लोग उसे सच में जानते हैं। कृष्ण बताते हैं कि मन, बुद्धि और अहंकार सहित सब कुछ उनकी पृथक ऊर्जा है। वह उन लोगों की दुर्लभता पर भी चर्चा करते हैं जो वास्तव में उनके सामने आत्मसमर्पण करते हैं। अधिकांश लोग देवताओं की पूजा करते हैं या भौतिक इच्छाओं से भ्रमित रहते हैं। सच्चे आध्यात्मिक ज्ञान का अर्थ है कृष्ण को हर चीज़ के मूल के रूप में समझना और भक्ति के साथ उनके प्रति समर्पण करना।",
           "verses": {
             "1": {
               "english": {
@@ -8542,12 +8570,15 @@ const library ={
                 "shloka": 30
               }
             }
-          }
+          },
+          prevChapter:"6",
+          nextChapter:"8"
         },
         "8": {
           "titleEnglish": "Attaining the Supreme",
           "titleHindi": "भगवत्प्राप्ति",
-          "description": null,
+          "descriptionEnglish": "Arjuna asks Krishna about the process of attaining the Supreme after death. Krishna explains that one’s consciousness at the time of death determines their next destination. Those who remember him at death return to his eternal abode, never to return to this world. Krishna describes the imperishable spiritual world, the unmanifested path of return, and the different paths the soul can take. Devotion and remembrance of Krishna at life’s end ensure liberation and eternal association with him.",
+"descriptionHindi":"अर्जुन कृष्ण से मृत्यु के बाद परम सत्ता प्राप्त करने की प्रक्रिया के बारे में पूछता है। कृष्ण बताते हैं कि मृत्यु के समय व्यक्ति की चेतना उसके अगले गंतव्य को निर्धारित करती है। जो लोग मृत्यु के समय उसे याद करते हैं वे उसके शाश्वत निवास पर लौट आते हैं, इस दुनिया में कभी वापस नहीं लौटते। कृष्ण अविनाशी आध्यात्मिक संसार, वापसी के अव्यक्त मार्ग तथा आत्मा द्वारा अपनाए जा सकने वाले विभिन्न मार्गों का वर्णन करते हैं। जीवन के अंत में कृष्ण की भक्ति और स्मरण उनके साथ मुक्ति और शाश्वत जुड़ाव सुनिश्चित करता है।",
           "verses": {
             "1": {
               "english": {
@@ -9354,12 +9385,15 @@ const library ={
                 "shloka": 28
               }
             }
-          }
+          },
+          prevChapter:"7",
+          nextChapter:"9"
         },
         "9": {
           "titleEnglish": "The Most Confidential Knowledge",
           "titleHindi": "परम गुह्य ज्ञान",
-          "description": null,
+          "descriptionEnglish": "Krishna reveals the most confidential knowledge—devotional service (bhakti). Everything is pervaded and sustained by him, yet he remains distinct. Even sinful persons can be purified by surrendering to him. Krishna promises that anyone who offers him a leaf, flower, fruit, or water with devotion will be accepted. Devotion is open to all, regardless of background. This chapter emphasizes the personal aspect of the Supreme and the transformative power of sincere bhakti.",
+"descriptionHindi":"कृष्ण सबसे गोपनीय ज्ञान—भक्ति सेवा (भक्ति) का खुलासा करते हैं। सब कुछ उसके द्वारा व्याप्त और कायम है, फिर भी वह विशिष्ट बना हुआ है। पापी व्यक्तियों को भी उसके प्रति समर्पण करके शुद्ध किया जा सकता है। कृष्ण वादा करते हैं कि जो कोई भी उन्हें भक्ति के साथ पत्ता, फूल, फल या पानी देगा, उसे स्वीकार किया जाएगा। भक्ति सभी के लिए खुली है, चाहे उनकी पृष्ठभूमि कुछ भी हो। यह अध्याय परम सत्ता के व्यक्तिगत पहलू और सच्ची भक्ति की परिवर्तनकारी शक्ति पर जोर देता है।",
           "verses": {
             "1": {
               "english": {
@@ -10242,7 +10276,7 @@ const library ={
                   "Therefore a person who is situated in Kṛṣṇa consciousness and is engaged with determination in the process of chanting Hare Kṛṣṇa, Hare Kṛṣṇa, Kṛṣṇa Kṛṣṇa, Hare Hare/ Hare Rāma, Hare Rāma, Rāma Rāma, Hare Hare should be considered to be in the transcendental position, even if by chance or accident he is found to have fallen. The words sādhur eva, “he is saintly,” are very emphatic. They are a warning to the nondevotees that because of an accidental falldown a devotee should not be derided; he should still be considered saintly even if he has accidentally fallen down. And the word mantavyaḥ is still more emphatic. If one does not follow this rule, and derides a devotee for his accidental falldown, then one is disobeying the order of the Supreme Lord. The only qualification of a devotee is to be unflinchingly and exclusively engaged in devotional service.",
                   "In the Nṛsiṁha Purāṇa the following statement is given:",
                   "bhagavati ca harāv ananya-cetābhṛśa-malino ’pi virājate manuṣyaḥna hi śaśa-kaluṣa-cchabiḥ kadācittimira-parābhavatām upaiti candraḥ",
-                  "The meaning is that even if one fully engaged in the devotional service of the Lord is sometimes found engaged in abominable activities, these activities should be considered to be like the spots that resemble the mark of a rabbit on the moon. Such spots do not become an impediment to the diffusion of moonlight. Similarly, the accidental falldown of a devotee from the path of saintly character does not make him abominable.",
+                  "The meaning is that even if one fully engaged in the devotional service of the Lord is sometimes found engaged in abominable activities, these activities should be considered to be like the spots that resemble the u of a rabbit on the moon. Such spots do not become an impediment to the diffusion of moonlight. Similarly, the accidental falldown of a devotee from the path of saintly character does not make him abominable.",
                   "On the other hand, one should not misunderstand that a devotee in transcendental devotional service can act in all kinds of abominable ways; this verse only refers to an accident due to the strong power of material connections. Devotional service is more or less a declaration of war against the illusory energy. As long as one is not strong enough to fight the illusory energy, there may be accidental falldowns. But when one is strong enough, he is no longer subjected to such falldowns, as previously explained. No one should take advantage of this verse and commit nonsense and think that he is still a devotee. If he does not improve in his character by devotional service, then it is to be understood that he is not a high devotee."
                 ]
               },
@@ -10383,12 +10417,15 @@ const library ={
                 "shloka": 34
               }
             }
-          }
+          },
+           prevChapter:"8",
+          nextChapter:"10"
         },
         "10": {
           "titleEnglish": "The Opulence of the Absolute",
           "titleHindi": "श्रीभगवान् का ऐश्वर्य",
-          "description": null,
+          "descriptionEnglish": "Krishna describes his divine glories (vibhūtis) and how everything powerful, beautiful, or majestic reflects a spark of his splendor. He explains how devotees come to know him as the source of everything. Arjuna acknowledges Krishna’s supreme position. This chapter helps deepen bhakti by recognizing Krishna’s presence in all aspects of creation. By meditating on these vibhūtis, a devotee’s attraction and love for Krishna increases, leading to unbreakable devotion.",
+"descriptionHindi":"कृष्ण अपनी दिव्य महिमा का वर्णन करते हैं और बताते हैं कि कैसे हर शक्तिशाली, सुंदर या राजसी चीज उनके वैभव की चिंगारी को प्रतिबिंबित करती है। वह बताते हैं कि कैसे भक्त उन्हें हर चीज के स्रोत के रूप में जानने लगते हैं। अर्जुन कृष्ण की सर्वोच्च स्थिति को स्वीकार करता है। यह अध्याय सृष्टि के सभी पहलुओं में कृष्ण की उपस्थिति को पहचानकर भक्ति को गहरा करने में मदद करता है। इन विभूतियों पर ध्यान करने से भक्त का कृष्ण के प्रति आकर्षण और प्रेम बढ़ता है, जिससे अटूट भक्ति की प्राप्ति होती है।",
           "verses": {
             "1": {
               "english": {
@@ -11504,12 +11541,15 @@ const library ={
                 "shloka": 42
               }
             }
-          }
+          },
+            prevChapter:"9",
+          nextChapter:"11"
         },
         "11": {
           "titleEnglish": "The Universal Form",
           "titleHindi": "विराट रूप",
-          "description": null,
+          "descriptionEnglish": "At Arjuna’s request, Krishna reveals his cosmic, universal form—showing infinite faces, arms, and the entire universe within himself. Arjuna is awestruck and terrified. He sees time personified destroying all warriors. Krishna tells him that this destruction is inevitable and Arjuna should simply become the instrument. Afterward, Krishna returns to his two-armed form. Arjuna, now convinced of Krishna’s divinity, surrenders completely. The chapter illustrates Krishna's supreme power and the importance of seeing him not just philosophically but in full reality.",
+"descriptionHindi":"अर्जुन के अनुरोध पर कृष्ण अपना ब्रह्मांडीय, सार्वभौमिक रूप प्रकट करते हैं—अनंत चेहरे, भुजाएं और अपने भीतर संपूर्ण ब्रह्मांड दिखाते हैं। अर्जुन अचंभित और भयभीत है। वह समय को सभी योद्धाओं को नष्ट करते हुए देखता है। कृष्ण उससे कहते हैं कि यह विनाश अपरिहार्य है और अर्जुन को बस साधन बन जाना चाहिए। इसके बाद कृष्ण अपने दो भुजाओं वाले रूप में लौट आते हैं। अर्जुन, अब कृष्ण की दिव्यता के प्रति आश्वस्त होकर, पूरी तरह से आत्मसमर्पण कर देता है। यह अध्याय कृष्ण की सर्वोच्च शक्ति और उन्हें न केवल दार्शनिक रूप से बल्कि पूर्ण वास्तविकता में देखने के महत्व को दर्शाता है।",
           "verses": {
             "1": {
               "english": {
@@ -12897,12 +12937,15 @@ const library ={
                 "shloka": 55
               }
             }
-          }
+          },
+          prevChapter:"10",
+          nextChapter:"12"
         },
         "12": {
           "titleEnglish": "Devotional Service",
           "titleHindi": "भक्तियोग",
-          "description": null,
+          "descriptionEnglish": "Krishna explains the superiority of devotional service (bhakti-yoga) over impersonal meditation. Devotees who worship him with love, surrender, and steady determination are most dear to him. He describes the qualities of true devotees—tolerant, humble, compassionate, detached, and forgiving. Devotion is accessible to all, regardless of qualification. Krishna assures that he personally protects his sincere devotees. This chapter emphasizes that loving Krishna with a pure heart is the most effective and pleasing spiritual path.",
+"descriptionHindi":"कृष्ण अवैयक्तिक ध्यान की तुलना में भक्ति सेवा (भक्ति-योग) की श्रेष्ठता की व्याख्या करते हैं। जो भक्त प्रेम, समर्पण और दृढ़ निश्चय के साथ उनकी पूजा करते हैं, वे उन्हें सबसे अधिक प्रिय हैं। वह सच्चे भक्तों के गुणों का वर्णन करता है—सहिष्णु, विनम्र, दयालु, अलग और क्षमाशील। योग्यता की परवाह किए बिना भक्ति सभी के लिए सुलभ है। कृष्ण आश्वासन देते हैं कि वह व्यक्तिगत रूप से अपने सच्चे भक्तों की रक्षा करते हैं। यह अध्याय इस बात पर जोर देता है कि कृष्ण से शुद्ध हृदय से प्रेम करना सबसे प्रभावी और सुखद आध्यात्मिक मार्ग है।",
           "verses": {
             "1": {
               "english": {
@@ -12943,7 +12986,7 @@ const library ={
                 "synonyms": "śrī - bhagavān   uvāca  —  the Supreme Personality of Godhead said ;  mayi  —  upon Me ;  āveśya  —  fixing ;  manaḥ  —  the mind ;  ye  —  those who ;  mām  —  Me ;  nitya  —  always ;  yuktāḥ  —  engaged ;  upāsate  —  worship ;  śraddhayā  —  with faith ;  parayā  —  transcendental ;  upetāḥ  —  endowed ;  te  —  they ;  me  —  by Me ;  yukta - tamāḥ  —  most perfect in  yoga ;  matāḥ  —  are considered .",
                 "translation": "The Supreme Personality of Godhead said: Those who fix their minds on My personal form and are always engaged in worshiping Me with great and transcendental faith are considered by Me to be most perfect.",
                 "purport": [
-                  "In answer to Arjuna’s question, Kṛṣṇa clearly says that he who concentrates upon His personal form and who worships Him with faith and devotion is to be considered most perfect in yoga. For one in such Kṛṣṇa consciousness there are no material activities, because everything is done for Kṛṣṇa. A pure devotee is constantly engaged. Sometimes he chants, sometimes he hears or reads books about Kṛṣṇa, or sometimes he cooks prasādam or goes to the marketplace to purchase something for Kṛṣṇa, or sometimes he washes the temple or the dishes – whatever he does, he does not let a single moment pass without devoting his activities to Kṛṣṇa. Such action is in full samādhi."
+                  "In answer to Arjuna’s question, Kṛṣṇa clearly says that he who concentrates upon His personal form and who worships Him with faith and devotion is to be considered most perfect in yoga. For one in such Kṛṣṇa consciousness there are no material activities, because everything is done for Kṛṣṇa. A pure devotee is constantly engaged. Sometimes he chants, sometimes he hears or reads books about Kṛṣṇa, or sometimes he cooks prasādam or goes to the uetplace to purchase something for Kṛṣṇa, or sometimes he washes the temple or the dishes – whatever he does, he does not let a single moment pass without devoting his activities to Kṛṣṇa. Such action is in full samādhi."
                 ]
               },
               "hindi": {
@@ -13253,12 +13296,15 @@ const library ={
                 "shloka": 20
               }
             }
-          }
+          },
+           prevChapter:"11",
+          nextChapter:"13"
         },
         "13": {
           "titleEnglish": "Nature, the Enjoyer and Consciousness",
           "titleHindi": "प्रकृति, पुरुष तथा चेतना",
-          "description": null,
+          "descriptionEnglish": "Krishna explains the distinction between the body (field), the soul (knower), and the Supersoul (the ultimate knower). Material nature and the living entities are eternal, but the soul becomes entangled in nature through desire. The body is temporary, but the soul is unborn. Krishna also speaks about the Supersoul residing in all beings. Knowledge of these differences enables one to become free from illusion. Understanding prakṛti (nature), puruṣa (the soul), and īśvara (the Lord) is essential for liberation.",
+"descriptionHindi":"कृष्ण शरीर (क्षेत्र), आत्मा (ज्ञाता) और परमात्मा (परम ज्ञाता) के बीच अंतर बताते हैं। भौतिक प्रकृति और जीव शाश्वत हैं, लेकिन आत्मा इच्छा के माध्यम से प्रकृति में उलझ जाती है। शरीर अस्थायी है, लेकिन आत्मा अजन्मा है। कृष्ण सभी प्राणियों में निवास करने वाली परमात्मा के बारे में भी बात करते हैं। इन अंतरों का ज्ञान व्यक्ति को भ्रम से मुक्त होने में सक्षम बनाता है। मुक्ति के लिए प्रकृति (प्रकृति), पुरुष (आत्मा) और ईश्वर (भगवान) को समझना आवश्यक है",
           "verses": {
             "3": {
               "english": {
@@ -14009,12 +14055,15 @@ const library ={
                 "shloka": 35
               }
             }
-          }
+          },
+           prevChapter:"12",
+          nextChapter:"14"
         },
         "14": {
           "titleEnglish": "The Three Modes of Material Nature",
           "titleHindi": "प्रकृति के तीन गुण",
-          "description": null,
+          "descriptionEnglish": "Krishna explains the three guṇas—goodness (sattva), passion (rajas), and ignorance (tamas)—which bind the soul to the body. These modes influence our thoughts, actions, and destiny. Sattva purifies and elevates, rajas binds through desire, and tamas causes delusion. By transcending these modes through devotional service, one becomes spiritually free and attains Krishna’s eternal nature. The chapter stresses how bhakti lifts the soul above all conditioning.",
+          "descriptionHindi":"कृष्ण तीन गुणों —अच्छाई (सत्व), जुनून (रजस), और अज्ञानता (तम)— की व्याख्या करते हैं जो आत्मा को शरीर से बांधते हैं। ये तरीके हमारे विचारों, कार्यों और नियति को प्रभावित करते हैं। सत्व शुद्ध करता है और ऊपर उठाता है, राजस इच्छा के माध्यम से बांधता है, और तमस भ्रम पैदा करता है। भक्ति सेवा के माध्यम से इन विधाओं से ऊपर उठकर व्यक्ति आध्यात्मिक रूप से स्वतंत्र हो जाता है और कृष्ण की शाश्वत प्रकृति को प्राप्त कर लेता है। अध्याय इस बात पर जोर देता है कि कैसे भक्ति आत्मा को सभी कंडीशनिंग से ऊपर उठाती है।",
           "verses": {
             "1": {
               "english": {
@@ -14671,12 +14720,15 @@ const library ={
                 "shloka": 27
               }
             }
-          }
+          },
+          prevChapter:"13",
+          nextChapter:"15"
         },
         "15": {
           "titleEnglish": "The Yoga of the Supreme Person",
           "titleHindi": "पुरुषोत्तम योग",
-          "description": null,
+          "descriptionEnglish": "Krishna uses the metaphor of an upside-down tree to represent the material world rooted in illusion. He describes the soul’s entrapment and how it can be liberated by surrendering to him. Krishna distinguishes between the fallible (conditioned) and infallible (liberated) living beings. He declares himself as the Supreme Person (Puruṣottama), beyond both. Understanding this helps break attachment to illusion and grants access to the eternal spiritual world.",
+"descriptionHindi":"कृष्ण भ्रम में निहित भौतिक संसार को दर्शाने के लिए उल्टे वृक्ष के रूपक का प्रयोग करते हैं। वह आत्मा के फंसने का वर्णन करता है और बताता है कि उसके सामने आत्मसमर्पण करके उसे कैसे मुक्त किया जा सकता है। कृष्ण त्रुटिपूर्ण (वातानुकूलित) और अचूक (मुक्त) जीवित प्राणियों के बीच अंतर करते हैं। वह स्वयं को दोनों से परे सर्वोच्च व्यक्ति (पुरुषोत्तम) घोषित करता है। इसे समझने से भ्रम के प्रति लगाव को तोड़ने में मदद मिलती है और शाश्वत आध्यात्मिक दुनिया तक पहुंच मिलती है।",
           "verses": {
             "1": {
               "english": {
@@ -15203,12 +15255,15 @@ const library ={
                 "shloka": 20
               }
             }
-          }
+          },
+          prevChapter:"14",
+          nextChapter:"16"
         },
         "16": {
           "titleEnglish": "The Divine and Demoniac Natures",
           "titleHindi": " दैवी और आसुरी स्वभाव",
-          "description": null,
+          "descriptionEnglish": "Krishna distinguishes between divine qualities (like humility, truthfulness, and compassion) and demoniac traits (pride, anger, arrogance, and ignorance). Divine qualities lead to liberation; demoniac ones to bondage and suffering. Demoniac people deny God, act selfishly, and fall into lower births. Krishna warns against acting against scriptural injunctions. He urges everyone to follow śāstra to avoid degradation and attain perfection. This chapter offers a clear path of ethical and spiritual behavior.",
+"descriptionHindi":"कृष्ण दिव्य गुणों (जैसे विनम्रता, सच्चाई और करुणा) और राक्षसी गुणों (गर्व, क्रोध, अहंकार और अज्ञानता) के बीच अंतर करते हैं। ईश्वरीय गुण मुक्ति की ओर ले जाते हैं; राक्षसी गुण बंधन और पीड़ा की ओर ले जाते हैं। दुष्टात्मा से ग्रस्त लोग परमेश्वर को नकारते हैं, स्वार्थी कार्य करते हैं, और निम्न जन्म में पड़ जाते हैं। कृष्ण धर्मशास्त्रीय आदेशों के विरुद्ध कार्य करने के विरुद्ध चेतावनी देते हैं। वह सभी से आग्रह करते हैं कि वे पतन से बचने और पूर्णता प्राप्त करने के लिए शास्त्र का पालन करें। यह अध्याय नैतिक और आध्यात्मिक व्यवहार का एक स्पष्ट मार्ग प्रस्तुत करता है।",
           "verses": {
             "1-3": {
               "english": {
@@ -15232,7 +15287,7 @@ const library ={
 "Satyam. This word means that one should not distort the truth for some personal interest. In Vedic literature there are some difficult passages, but the meaning or the purpose should be learned from a bona fide spiritual master. That is the process for understanding the Vedas. Śruti means that one should hear from the authority. One should not construe some interpretation for his personal interest. There are so many commentaries on Bhagavad-gītā that misinterpret the original text. The real import of the word should be presented, and that should be learned from a bona fide spiritual master.",
 "Akrodha means to check anger. Even if there is provocation one should be tolerant, for once one becomes angry his whole body becomes polluted. Anger is a product of the mode of passion and lust, so one who is transcendentally situated should check himself from anger. Apaiśunam means that one should not find fault with others or correct them unnecessarily. Of course to call a thief a thief is not faultfinding, but to call an honest person a thief is very much offensive for one who is making advancement in spiritual life. Hrī means that one should be very modest and must not perform some act which is abominable. Acāpalam, determination, means that one should not be agitated or frustrated in some attempt. There may be failure in some attempt, but one should not be sorry for that; he should make progress with patience and determination.",
 "The word tejas used here is meant for the kṣatriyas. The kṣatriyas should always be very strong to be able to give protection to the weak. They should not pose themselves as nonviolent. If violence is required, they must exhibit it. But a person who is able to curb down his enemy may under certain conditions show forgiveness. He may excuse minor offenses.",
-"Śaucam means cleanliness, not only in mind and body but in one’s dealings also. It is especially meant for the mercantile people, who should not deal in the black market. Nāti-mānitā, not expecting honor, applies to the śūdras, the worker class, which are considered, according to Vedic injunctions, to be the lowest of the four classes. They should not be puffed up with unnecessary prestige or honor and should remain in their own status. It is the duty of the śūdras to offer respect to the higher class for the upkeep of the social order.",
+"Śaucam means cleanliness, not only in mind and body but in one’s dealings also. It is especially meant for the mercantile people, who should not deal in the black uet. Nāti-mānitā, not expecting honor, applies to the śūdras, the worker class, which are considered, according to Vedic injunctions, to be the lowest of the four classes. They should not be puffed up with unnecessary prestige or honor and should remain in their own status. It is the duty of the śūdras to offer respect to the higher class for the upkeep of the social order.",
 "All these twenty-six qualifications mentioned are transcendental qualities. They should be cultivated according to the different statuses of social and occupational order. The purport is that even though material conditions are miserable, if these qualities are developed by practice, by all classes of men, then gradually it is possible to rise to the highest platform of transcendental realization."
                 ]
               },
@@ -15458,7 +15513,7 @@ const library ={
                 "synonyms": "aneka  —  numerous ;  citta  —  by anxieties ;  vibhrāntāḥ  —  perplexed ;  moha  —  of illusions ;  jāla  —  by a network ;  samāvṛtāḥ  —  surrounded ;  prasaktāḥ  —  attached ;  kāma - bhogeṣu  —  to sense gratification ;  patanti  —  they glide down ;  narake  —  into hell ;  aśucau  —  unclean .",
                 "translation": "Thus perplexed by various anxieties and bound by a network of illusions, they become too strongly attached to sense enjoyment and fall down into hell.",
                 "purport": [
-                  "The demoniac man knows no limit to his desire to acquire money. That is unlimited. He thinks only of how much assessment he has just now and schemes to engage that stock of wealth further and further. For that reason, he does not hesitate to act in any sinful way and so deals in the black market for illegal gratification. He is enamored by the possessions he has already, such as land, family, house and bank balance, and he is always planning to improve them. He believes in his own strength, and he does not know that whatever he is gaining is due to his past good deeds. He is given an opportunity to accumulate such things, but he has no conception of past causes. He simply thinks that all his mass of wealth is due to his own endeavor. A demoniac person believes in the strength of his personal work, not in the law of karma. According to the law of karma, a man takes his birth in a high family, or becomes rich, or very well educated, or very beautiful because of good work in the past. The demoniac think that all these things are accidental and due to the strength of one’s personal ability. They do not sense any arrangement behind all the varieties of people, beauty and education. Anyone who comes into competition with such a demoniac man is his enemy. There are many demoniac people, and each is enemy to the others. This enmity becomes more and more deep – between persons, then between families, then between societies, and at last between nations. Therefore there is constant strife, war and enmity all over the world.",
+                  "The demoniac man knows no limit to his desire to acquire money. That is unlimited. He thinks only of how much assessment he has just now and schemes to engage that stock of wealth further and further. For that reason, he does not hesitate to act in any sinful way and so deals in the black uet for illegal gratification. He is enamored by the possessions he has already, such as land, family, house and bank balance, and he is always planning to improve them. He believes in his own strength, and he does not know that whatever he is gaining is due to his past good deeds. He is given an opportunity to accumulate such things, but he has no conception of past causes. He simply thinks that all his mass of wealth is due to his own endeavor. A demoniac person believes in the strength of his personal work, not in the law of karma. According to the law of karma, a man takes his birth in a high family, or becomes rich, or very well educated, or very beautiful because of good work in the past. The demoniac think that all these things are accidental and due to the strength of one’s personal ability. They do not sense any arrangement behind all the varieties of people, beauty and education. Anyone who comes into competition with such a demoniac man is his enemy. There are many demoniac people, and each is enemy to the others. This enmity becomes more and more deep – between persons, then between families, then between societies, and at last between nations. Therefore there is constant strife, war and enmity all over the world.",
                   "Each demoniac person thinks that he can live at the sacrifice of all others. Generally, a demoniac person thinks of himself as the Supreme God, and a demoniac preacher tells his followers: “Why are you seeking God elsewhere? You are all yourselves God! Whatever you like, you can do. Don’t believe in God. Throw away God. God is dead.” These are the demoniac’s preachings.",
                   "Although the demoniac person sees others equally rich and influential, or even more so, he thinks that no one is richer than he and that no one is more influential than he. As far as promotion to the higher planetary system is concerned, he does not believe in performing yajñas, or sacrifices. Demons think that they will manufacture their own process of yajña and prepare some machine by which they will be able to reach any higher planet. The best example of such a demoniac man was Rāvaṇa. He offered a program to the people by which he would prepare a staircase so that anyone could reach the heavenly planets without performing sacrifices, such as are prescribed in the Vedas. Similarly, in the present age such demoniac men are striving to reach the higher planetary systems by mechanical arrangements. These are examples of bewilderment. The result is that, without their knowledge, they are gliding toward hell. Here the Sanskrit word moha-jāla is very significant. Jāla means “net”; like fish caught in a net, they have no way to come out."
                 ]
@@ -15710,12 +15765,15 @@ const library ={
                 "shloka": 24
               }
             }
-          }
+          },
+           prevChapter:"15",
+          nextChapter:"17"
         },
         "17": {
           "titleEnglish": "The Divisions of Faith",
           "titleHindi": "श्रद्धा के विभाग",
-          "description": null,
+          "descriptionEnglish": "Faith varies according to the three modes of nature. In goodness, people worship demigods; in passion, powerful beings; and in ignorance, ghosts and spirits. Food, sacrifice, austerity, and charity are also of three kinds—depending on the mode one is influenced by. Krishna explains how to perform actions with the right attitude—without pride or expectation. The chapter ends by glorifying the sacred syllables Om Tat Sat, which signify the Absolute Truth and are used in Vedic sacrifices.",
+"descriptionHindi":"आस्था प्रकृति के तीन तरीकों के अनुसार भिन्न होती है। अच्छाई में लोग देवताओं की पूजा करते हैं; जुनून में शक्तिशाली प्राणियों की; और अज्ञानता में भूत-प्रेतों की। भोजन, त्याग, तपस्या और दान भी तीन प्रकार के होते हैं—यह इस बात पर निर्भर करता है कि व्यक्ति किस प्रकार से प्रभावित है। कृष्ण बताते हैं कि सही दृष्टिकोण के साथ कार्य कैसे करें—बिना गर्व या अपेक्षा के। अध्याय पवित्र अक्षरों ओम तत् सत् की महिमा के साथ समाप्त होता है, जो परम सत्य का प्रतीक है और वैदिक बलिदानों में प्रयोग किया जाता है।",
           "verses": {
             "1": {
               "english": {
@@ -15808,7 +15866,7 @@ const library ={
                 "synonyms": "yajante  —  worship ;  sāttvikāḥ  —  those who are in the mode of goodness ;  devān  —  demigods ;  yakṣa - rakṣāṁsi  —  demons ;  rājasāḥ  —  those who are in the mode of passion ;  pretān  —  spirits of the dead ;  bhūta - gaṇān  —  ghosts ;  ca  —  and ;  anye  —  others ;  yajante  —  worship ;  tāmasāḥ  —  in the mode of ignorance ;  janāḥ  —  people .",
                 "translation": "Men in the mode of goodness worship the demigods; those in the mode of passion worship the demons; and those in the mode of ignorance worship ghosts and spirits.",
                 "purport": [
-                  "In this verse the Supreme Personality of Godhead describes different kinds of worshipers according to their external activities. According to scriptural injunction, only the Supreme Personality of Godhead is worshipable, but those who are not very conversant with, or faithful to, the scriptural injunctions worship different objects, according to their specific situations in the modes of material nature. Those who are situated in goodness generally worship the demigods. The demigods include Brahmā, Śiva and others such as Indra, Candra and the sun-god. There are various demigods. Those in goodness worship a particular demigod for a particular purpose. Similarly, those who are in the mode of passion worship the demons. We recall that during the Second World War a man in Calcutta worshiped Hitler because thanks to that war he had amassed a large amount of wealth by dealing in the black market. Similarly, those in the modes of passion and ignorance generally select a powerful man to be God. They think that anyone can be worshiped as God and that the same results will be obtained.",
+                  "In this verse the Supreme Personality of Godhead describes different kinds of worshipers according to their external activities. According to scriptural injunction, only the Supreme Personality of Godhead is worshipable, but those who are not very conversant with, or faithful to, the scriptural injunctions worship different objects, according to their specific situations in the modes of material nature. Those who are situated in goodness generally worship the demigods. The demigods include Brahmā, Śiva and others such as Indra, Candra and the sun-god. There are various demigods. Those in goodness worship a particular demigod for a particular purpose. Similarly, those who are in the mode of passion worship the demons. We recall that during the Second World War a man in Calcutta worshiped Hitler because thanks to that war he had amassed a large amount of wealth by dealing in the black uet. Similarly, those in the modes of passion and ignorance generally select a powerful man to be God. They think that anyone can be worshiped as God and that the same results will be obtained.",
                   "Now, it is clearly described here that those who are in the mode of passion worship and create such gods, and those who are in the mode of ignorance, in darkness, worship dead spirits. Sometimes people worship at the tomb of some dead man. Sexual service is also considered to be in the mode of darkness. Similarly, in remote villages in India there are worshipers of ghosts. We have seen that in India the lower-class people sometimes go to the forest, and if they have knowledge that a ghost lives in a tree, they worship that tree and offer sacrifices. These different kinds of worship are not actually God worship. God worship is for persons who are transcendentally situated in pure goodness. In the Śrīmad-Bhāgavatam (4.3.23) it is said, sattvaṁ viśuddhaṁ vasudeva-śabditam: “When a man is situated in pure goodness, he worships Vāsudeva.” The purport is that those who are completely purified of the material modes of nature and who are transcendentally situated can worship the Supreme Personality of Godhead.",
                   "The impersonalists are supposed to be situated in the mode of goodness, and they worship five kinds of demigods. They worship the impersonal Viṣṇu form in the material world, which is known as philosophized Viṣṇu. Viṣṇu is the expansion of the Supreme Personality of Godhead, but the impersonalists, because they do not ultimately believe in the Supreme Personality of Godhead, imagine that the Viṣṇu form is just another aspect of the impersonal Brahman; similarly, they imagine that Lord Brahmā is the impersonal form in the material mode of passion. Thus they sometimes describe five kinds of gods that are worshipable, but because they think that the actual truth is impersonal Brahman, they dispose of all worshipable objects at the ultimate end. In conclusion, the different qualities of the material modes of nature can be purified through association with persons who are of transcendental nature."
                 ]
@@ -16389,12 +16447,15 @@ const library ={
                 "shloka": 28
               }
             }
-          }
+          },
+           prevChapter:"16",
+          nextChapter:"18"
         },
         "18": {
           "titleEnglish": "The Perfection of Renunciation",
           "titleHindi": "उपसंहार - संन्यास की सिद्धि",
-          "description": null,
+          "descriptionEnglish": "Krishna concludes by summarizing all paths: karma-yoga, jñāna-yoga, and bhakti-yoga. True renunciation means acting without attachment, for the satisfaction of Krishna. Different types of work, knowledge, understanding, and determination exist according to the modes. Krishna stresses that one must act according to their nature (svadharma), without envy or false renunciation. Finally, Krishna instructs Arjuna to surrender fully to him, assuring freedom from all sin. Arjuna’s doubts are removed, and he chooses to fight with full faith in Krishna.",
+"descriptionHindi":"कृष्ण सभी मार्गों का सारांश देकर निष्कर्ष निकालते हैं: कर्म-योग, ज्ञान-योग और भक्ति-योग। सच्चे त्याग का अर्थ है कृष्ण की संतुष्टि के लिए आसक्ति के बिना कार्य करना। तरीकों के अनुसार विभिन्न प्रकार के कार्य, ज्ञान, समझ और दृढ़ संकल्प मौजूद हैं। कृष्ण इस बात पर बल देते हैं कि व्यक्ति को अपने स्वभाव (स्वधर्म) के अनुसार, ईर्ष्या या झूठे त्याग के बिना कार्य करना चाहिए। अंत में, कृष्ण अर्जुन को सभी पापों से मुक्ति का आश्वासन देते हुए पूरी तरह से उसके सामने आत्मसमर्पण करने का निर्देश देते हैं। अर्जुन के संदेह दूर हो जाते हैं, और वह कृष्ण में पूर्ण विश्वास के साथ लड़ने का विकल्प चुनता है।",
           "verses": {
             "1": {
               "english": {
@@ -17702,7 +17763,7 @@ const library ={
                 "synonyms": "saha - jam  —  born simultaneously ;  karma  —  work ;  kaunteya  —  O son of Kuntī ;  sa - doṣam  —  with fault ;  api  —  although ;  na  —  never ;  tyajet  —  one should give up ;  sarva - ārambhāḥ  —  all ventures ;  hi  —  certainly ;  doṣeṇa  —  with fault ;  dhūmena  —  with smoke ;  agniḥ  —  fire ;  iva  —  as ;  āvṛtāḥ  —  covered .",
                 "translation": "Every endeavor is covered by some fault, just as fire is covered by smoke. Therefore one should not give up the work born of his nature, O son of Kuntī, even if such work is full of fault.",
                 "purport": [
-                  "In conditioned life, all work is contaminated by the material modes of nature. Even if one is a brāhmaṇa, he has to perform sacrifices in which animal killing is necessary. Similarly, a kṣatriya, however pious he may be, has to fight enemies. He cannot avoid it. Similarly, a merchant, however pious he may be, must sometimes hide his profit to stay in business, or he may sometimes have to do business on the black market. These things are necessary; one cannot avoid them. Similarly, even though a man is a śūdra serving a bad master, he has to carry out the order of the master, even though it should not be done. Despite these flaws, one should continue to carry out his prescribed duties, for they are born out of his own nature.",
+                  "In conditioned life, all work is contaminated by the material modes of nature. Even if one is a brāhmaṇa, he has to perform sacrifices in which animal killing is necessary. Similarly, a kṣatriya, however pious he may be, has to fight enemies. He cannot avoid it. Similarly, a merchant, however pious he may be, must sometimes hide his profit to stay in business, or he may sometimes have to do business on the black uet. These things are necessary; one cannot avoid them. Similarly, even though a man is a śūdra serving a bad master, he has to carry out the order of the master, even though it should not be done. Despite these flaws, one should continue to carry out his prescribed duties, for they are born out of his own nature.",
                   "A very nice example is given herein. Although fire is pure, still there is smoke. Yet smoke does not make the fire impure. Even though there is smoke in the fire, fire is still considered to be the purest of all elements. If one prefers to give up the work of a kṣatriya and take up the occupation of a brāhmaṇa, he is not assured that in the occupation of a brāhmaṇa there are no unpleasant duties. One may then conclude that in the material world no one can be completely free from the contamination of material nature. This example of fire and smoke is very appropriate in this connection. When in wintertime one takes a stone from the fire, sometimes smoke disturbs the eyes and other parts of the body, but still one must make use of the fire despite disturbing conditions. Similarly, one should not give up his natural occupation because there are some disturbing elements. Rather, one should be determined to serve the Supreme Lord by his occupational duty in Kṛṣṇa consciousness. That is the perfectional point. When a particular type of occupation is performed for the satisfaction of the Supreme Lord, all the defects in that particular occupation are purified. When the results of work are purified, when connected with devotional service, one becomes perfect in seeing the self within, and that is self-realization."
                 ]
               },
@@ -18499,7 +18560,9 @@ const library ={
                 "shloka": 78
               }
             }
-          }
+          },
+          prevChapter:"16",
+          nextChapter:null
         }
       }
       

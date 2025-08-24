@@ -16,13 +16,16 @@ app.use(express.static("public"));
 
 // app.use(express.static(path.join(__dirname, 'public')));
 
-import userRouter from "./routes/user.routes.js";
-app.use("/users", userRouter);
-
 import libraryRouter from "./routes/library.routes.js";
 app.use("/library", libraryRouter);
 
-import homeRouter from "./routes/aboutUs.routes.js"
-app.use("/aboutUs", homeRouter);
+import aboutUsRouter from "./routes/aboutUs.routes.js"
+app.use("/aboutUs", aboutUsRouter);
+
+import registrationRouter from "./routes/registration.routes.js"
+app.use("/registration", registrationRouter);
+
+import homeRouter from "./routes/home.routes.js"
+app.use("/home", homeRouter);
 
 export { app };

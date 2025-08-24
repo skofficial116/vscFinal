@@ -1,0 +1,146 @@
+/* Hero Section */
+.hero {
+  background: url("/media/bg_hero.jpg") no-repeat center center/cover;
+  padding: 20px 20px;
+  text-align: center;
+  color: #300;
+  border-radius: 12px;
+  margin: 0px auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #300;
+  text-shadow: 1px 1px 2px #300;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  /* text-shadow: 1px 1px 1px #300; */
+}
+
+.hero-buttons .btn {
+  margin: 5px;
+}
+
+/* About Preview */
+.about-preview {
+  text-align: center;
+  background-color: #fdead6;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-preview p {
+  margin: 15px auto;
+  max-width: 700px;
+  color: #505050;
+}
+
+/* Highlights Section */
+.highlights {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.highlight-card {
+  background: #f5e9dc;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Instagram Section */
+.instagram-block {
+  text-align: center;
+  background: #fdead6;
+  padding: 30px 20px;
+  margin: 30px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.insta {
+  background: #e4405f;
+  color: #fff !important;
+}
+
+.insta:hover {
+  background: #d81b60;
+}
+
+/* Join CTA */
+.join-cta {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fdead6;
+  border-radius: 12px;
+  margin: 40px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.join-cta h2 {
+  margin-bottom: 15px;
+}
+
+.btn.big {
+  font-size: 1.2rem;
+  padding: 12px 25px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: #630;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: #990000;
+  color: #fff;
+}
+
+.btn.secondary {
+  background: #c90;
+  color: #300;
+}
+
+.btn.secondary:hover {
+  background: #630;
+  color: #fff;
+}
+
+.btn.small {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #505050;
+}
