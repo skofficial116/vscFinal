@@ -27,5 +27,6 @@ app.use("/registration", registrationRouter);
 
 import homeRouter from "./routes/home.routes.js"
 app.use("/home", homeRouter);
+app.use("/", homeRouter);
 
 export { app };
