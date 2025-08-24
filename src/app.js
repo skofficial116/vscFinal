@@ -22,22 +22,20 @@ app.use(
 app.use(express.json({ limit: "16kb" }));
 app.use(cookieParser());
 
-// ✅ Serve static files from 'public' folder
+// ✅ Serve static files FIRST
 app.use(express.static(path.join(__dirname, "public")));
 
 // Routers
 import libraryRouter from "./routes/library.routes.js";
-app.use("/library", libraryRouter);
-
 import aboutUsRouter from "./routes/aboutUs.routes.js";
-app.use("/aboutUs", aboutUsRouter);
-
 import registrationRouter from "./routes/registration.routes.js";
-app.use("/registration", registrationRouter);
-
 import homeRouter from "./routes/home.routes.js";
+
+app.use("/library", libraryRouter);
+app.use("/aboutUs", aboutUsRouter);
+app.use("/registration", registrationRouter);
 app.use("/home", homeRouter);
-app.use("/", homeRouter); // Optional: fallback to home
+app.use("/", homeRouter); // fallback
 
 // Export the app
 export { app };
