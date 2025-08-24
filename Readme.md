@@ -1,3 +1,1 @@
-# Chai aur Backend series
-
-This is a video series 
+Welcome to the repository of Vedic Science Club
