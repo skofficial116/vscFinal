@@ -77,7 +77,7 @@ const generateHomeHTML = ()=>{
                 Browse our digital collection of sacred texts and reference
                 material to deepen your understanding.
               </p>
-              <a href="/library" class="btn small">Browse Books</a>
+              <a href="/library/category" class="btn small">Browse Books</a>
             </div>
           </div>
         </section>
