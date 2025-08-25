@@ -71,16 +71,16 @@ const generateShlokaHTML = (chapter, shloka, englishData, hindiData, prevShloka,
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bhagavad Gita - Chapter ${chapter}, Verse ${shloka}</title>
-    <link rel="stylesheet" href="/cssFiles/common.css" />
-    <link rel="stylesheet" href="/cssFiles/shloka.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/shloka.css" />
 
 </head>
 <body>
     <div id="wrap">
         <div id="header">
         <h1>
-          <img src="/media/title_left.gif" alt="" />Vedic Science Club<img
-            src="/media/title_right.gif"
+          <img src="https://vscassets.pages.dev/media/title_left.gif" alt="" />Vedic Science Club<img
+            src="https://vscassets.pages.dev/media/title_right.gif"
             alt=""
           />
         </h1>
@@ -158,7 +158,7 @@ const generateShlokaHTML = (chapter, shloka, englishData, hindiData, prevShloka,
         </div>
     </div>
     
-    <script src='/jsFiles/shloka.js'> </script>
+    <script src='https://vscassets.pages.dev/jsFiles/shloka.js'> </script>
 </body>
 </html>`;
 };
@@ -256,16 +256,16 @@ const descriptionHindi = chapterData.descriptionHindi || '';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale="1.0" />
     <title>Bhagavad Gita - Chapter ${chapterNumber}</title>
-    <link rel="stylesheet" href="/cssFiles/common.css" />
-    <link rel="stylesheet" href="/cssFiles/chapter.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/chapter.css" />
 
 </head>
 <body>
     <div id="wrap">
         <div id="header">
         <h1>
-          <img src="/media/title_left.gif" alt="" />Vedic Science Club<img
-            src="/media/title_right.gif"
+          <img src="https://vscassets.pages.dev/media/title_left.gif" alt="" />Vedic Science Club<img
+            src="https://vscassets.pages.dev/media/title_right.gif"
             alt=""
           />
         </h1>
@@ -362,8 +362,8 @@ const generateBGHomeHTML = ()=>{
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bhagavad Gita As It Is - Vedic Science Club</title>
     
-   <link rel="stylesheet" href="/cssFiles/common.css" />
-   <link rel="stylesheet" href="/cssFiles/bgHome.css" />
+   <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css" />
+   <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/bgHome.css" />
 
 
   </head>
@@ -371,8 +371,8 @@ const generateBGHomeHTML = ()=>{
     <div id="wrap">
       <div id="header">
         <h1>
-          <img src="/media/title_left.gif" alt="" />Vedic Science Club<img
-            src="/media/title_right.gif"
+          <img src="https://vscassets.pages.dev/media/title_left.gif" alt="" />Vedic Science Club<img
+            src="https://vscassets.pages.dev/media/title_right.gif"
             alt=""
           />
         </h1>
@@ -445,7 +445,7 @@ const generateBGHomeHTML = ()=>{
       </div>
     </div>
 
-    <script src='/jsFiles/bgHome.js'>
+    <script src='https://vscassets.pages.dev/jsFiles/bgHome.js'>
       </script>
   </body>
 </html>
@@ -470,15 +470,15 @@ const generateLibraryHTML = () => {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library - Vedic Science Club</title>
-    <link rel="stylesheet" href="/cssFiles/library.css" />
-    <link rel="stylesheet" href="/cssFiles/common.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/library.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css" />
   </head>
   <body>
     <div id="wrap">
       <div id="header">
         <h1>
-          <img src="/media/title_left.gif" alt="" />Vedic Science Club
-          <img src="/media/title_right.gif" alt="" />
+          <img src="https://vscassets.pages.dev/media/title_left.gif" alt="" />Vedic Science Club
+          <img src="https://vscassets.pages.dev/media/title_right.gif" alt="" />
         </h1>
         <h2>Unveiling ancient scientific wisdom</h2>
         <div id="nav">
@@ -527,7 +527,7 @@ const generateLibraryHTML = () => {
 
       
     </div>
-    <script src='/jsFiles/library.js'> </script>
+    <script src='https://vscassets.pages.dev/jsFiles/library.js'> </script>
   </body>
 </html>`;
 };
@@ -547,15 +547,15 @@ return `<!DOCTYPE html>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finding Help in Bhagavad Gita - Categories</title>
-    <link rel="stylesheet" href="/cssFiles/common.css" />
-    <link rel="stylesheet" href="/cssFiles/category.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/category.css" />
   </head>
   <body>
     <div id="wrap">
       <div id="header">
         <h1>
-          <img src="/media/title_left.gif" alt="" />Vedic Science Club<img
-            src="/media/title_right.gif"
+          <img src="https://vscassets.pages.dev/media/title_left.gif" alt="" />Vedic Science Club<img
+            src="https://vscassets.pages.dev/media/title_right.gif"
             alt=""
           />
         </h1>
@@ -612,7 +612,7 @@ return `<!DOCTYPE html>
       </div>
     </div>
 
-    <script  src='/jsFiles/category.js'></script>
+    <script  src='https://vscassets.pages.dev/jsFiles/category.js'></script>
   </body>
 </html>
 `

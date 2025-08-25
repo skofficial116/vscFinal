@@ -5,15 +5,15 @@ const generateAboutUsHTML = ()=>{
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us - Vedic Science Club</title>
-    <link rel="stylesheet" href="/cssFiles/common.css" />
-    <link rel="stylesheet" href="/cssFiles/about.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/about.css" />
   </head>
   <body>
     <div id="wrap">
       <div id="header">
         <h1>
-          <img src="/media/title_left.gif" alt="" />Vedic Science Club
-          <img src="/media/title_right.gif" alt="" />
+          <img src="https://vscassets.pages.dev/media/title_left.gif" alt="" />Vedic Science Club
+          <img src="https://vscassets.pages.dev/media/title_right.gif" alt="" />
         </h1>
         <h2>Unveiling ancient scientific wisdom</h2>
         <div id="nav">
@@ -88,7 +88,7 @@ const generateAboutUsHTML = ()=>{
 
             <section class="team">
               <h3>👥 Our Community</h3>
-              <img src="/media/team.jpg" alt="Vedic Science Club Members" />
+              <img src="https://vscassets.pages.dev/media/team.jpg" alt="Vedic Science Club Members" />
               <p>
                 <em
                   >We are seekers, students, and teachers—united by a love for
@@ -142,7 +142,7 @@ const generateAboutUsHTML = ()=>{
 
             <section class="team">
               <h3>👥 हमारा समुदाय</h3>
-              <img src="/media/team.jpg" alt="सदस्य समूह" />
+              <img src="https://vscassets.pages.dev/media/team.jpg" alt="सदस्य समूह" />
               <p>
                 <em
                   >हम साधक, विद्यार्थी और शिक्षक हैं—गीता के अमर ज्ञान को साझा
@@ -183,7 +183,7 @@ const generateAboutUsHTML = ()=>{
           />
         </a>
       </div>
-      <script src="/jsFiles/aboutUs.js"></script>  
+      <script src="https://vscassets.pages.dev/jsFiles/aboutUs.js"></script>  
     </div>
   </body>
 </html>

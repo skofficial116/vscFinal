@@ -8,16 +8,16 @@ const generateRegistrationHTML = ()=>{
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- <link rel="stylesheet" href="/common.css" /> -->
-    <link rel="stylesheet" href="/cssFiles/test.css" />
-    <link rel="stylesheet" href="/cssFiles/registration.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/test.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/registration.css" />
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
   <body>
     <div id="wrap">
       <div id="header">
         <h1>
-          <img src="/media/title_left.gif" alt="" />Vedic Science Club<img
-            src="/media/title_right.gif"
+          <img src="https://vscassets.pages.dev/media/title_left.gif" alt="" />Vedic Science Club<img
+            src="https://vscassets.pages.dev/media/title_right.gif"
             alt=""
           />
         </h1>
@@ -216,7 +216,7 @@ const generateRegistrationHTML = ()=>{
           </div>
         </div>
       </div>
-      <script src="/jsFiles/registration.js"></script>
+      <script src="https://vscassets.pages.dev/jsFiles/registration.js"></script>
     </div>
   </body>
 </html>
