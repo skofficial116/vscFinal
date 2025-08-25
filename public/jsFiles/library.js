@@ -6,8 +6,8 @@ const libraryData = {
                 author: "His Divine Grace A.C. Bhaktivedanta Swami Srila Prabhupada",
                 description:
                   "The timeless conversation between Lord Krishna and Arjuna, presenting the science of self-realization and the path to spiritual enlightenment.",
-                coverImage: "/media/bgCOver3.jpg",
-                link: "http://localhost:8000/library/category",
+                coverImage: "/https://vscassets.pages.dev/js/bgCOver3.jpg",
+                link: "/library/category",
                 altName:"gita-cover"
               },
             ],
@@ -17,42 +17,42 @@ const libraryData = {
                 description:
                   "Discover verses that bring inner calm and tranquility, helping you navigate life's challenges with equanimity.",
                 icon: "🕊️",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
               {
                 name: "Stress Relief",
                 description:
                   "Powerful shlokas to alleviate anxiety and stress, providing spiritual solutions to modern problems.",
                 icon: "🧘",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
               {
                 name: "Success & Prosperity",
                 description:
                   "Verses that guide toward righteous success and abundance while maintaining spiritual values.",
                 icon: "🌟",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
               {
                 name: "Relationships",
                 description:
                   "Wisdom for harmonious relationships with family, friends, and society at large.",
                 icon: "💞",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
               {
                 name: "Health & Well-being",
                 description:
                   "Ancient verses promoting physical, mental, and spiritual health.",
                 icon: "💪",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
               {
                 name: "Wisdom & Knowledge",
                 description:
                   "Shlokas that illuminate the path to true knowledge and understanding.",
                 icon: "📚",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
             ],
           },
@@ -63,8 +63,8 @@ const libraryData = {
                 author: "श्रील प्रभुपाद",
                 description:
                   "भगवान कृष्ण और अर्जुन के बीच कालातीत संवाद, आत्म-साक्षात्कार का विज्ञान और आध्यात्मिक ज्ञान का मार्ग प्रस्तुत करता है।",
-                coverImage: "/media/gitaCover.jpg",
-                link: "http://localhost:8000/library/category",
+                coverImage: "/https://vscassets.pages.dev/js/gitaCover.jpg",
+                link: "/library/category",
               },
             ],
             shlokaCategories: [
@@ -73,42 +73,42 @@ const libraryData = {
                 description:
                   "ऐसे छंदों की खोज करें जो आंतरिक शांति और सुकून लाते हैं, जिससे आपको जीवन की चुनौतियों का समान भाव से सामना करने में मदद मिलती है।",
                 icon: "🕊️",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
               {
                 name: "तनाव से मुक्ति",
                 description:
                   "चिंता और तनाव को कम करने के लिए शक्तिशाली श्लोक, आधुनिक समस्याओं के आध्यात्मिक समाधान प्रदान करते हैं।",
                 icon: "🧘",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
               {
                 name: "सफलता और समृद्धि",
                 description:
                   "ऐसे छंद जो आध्यात्मिक मूल्यों को बनाए रखते हुए धार्मिक सफलता और प्रचुरता की ओर मार्गदर्शन करते हैं।",
                 icon: "🌟",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
               {
                 name: "संबंध",
                 description:
                   "परिवार, दोस्तों और बड़े पैमाने पर समाज के साथ सामंजस्यपूर्ण संबंधों के लिए ज्ञान।",
                 icon: "💞",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
               {
                 name: "स्वास्थ्य और कल्याण",
                 description:
                   "शारीरिक, मानसिक और आध्यात्मिक स्वास्थ्य को बढ़ावा देने वाले प्राचीन छंद।",
                 icon: "💪",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
               {
                 name: "ज्ञान और विद्या",
                 description:
                   "श्लोक जो सच्चे ज्ञान और समझ के मार्ग को प्रकाशित करते हैं।",
                 icon: "📚",
-                link: "http://localhost:8000/library/category",
+                link: "/library/category",
               },
             ],
           },

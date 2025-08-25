@@ -5,8 +5,9 @@ const generateAboutUsHTML = ()=>{
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us - Vedic Science Club</title>
-    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/test.css" />
     <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/about.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css" />
   </head>
   <body>
     <div id="wrap">
@@ -162,7 +163,7 @@ const generateAboutUsHTML = ()=>{
       <!-- Sticky Buy Button -->
       <div
         class="buy-btn"
-        onclick="window.open('https://wa.me/91XXXXXXXXXX?text=I want to buy a Bhagavad Gita','_blank')"
+        onclick="window.open('https://wa.me/9988224832?text=Hare Krishna! I want to buy a Bhagavad Gita','_blank')"
       >
         <span class="icon">📖</span>
         <span class="text hidden">Buy Bhagavad Gita</span>
@@ -177,7 +178,7 @@ const generateAboutUsHTML = ()=>{
           aria-label="Follow us on Instagram"
         >
           <img
-            src="media/image.png"
+            src="https://vscassets.pages.dev/media/image.png"
             alt="Instagram logo"
             class="instagram-logo"
           />

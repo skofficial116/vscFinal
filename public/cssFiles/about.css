@@ -55,14 +55,15 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 486px) {
-  .mission-vision {
-    flex-direction: row;
-    overflow-x: auto;
-    padding-bottom: 10px;
-  }
-  .mission-vision .card {
-    min-width: 250px;
-    flex-shrink: 0;
+  @media (max-width: 486px) {
+    .mission-vision {
+      flex-direction: column; /* keep vertical */
+      overflow-x: visible; /* remove scrollbar */
+      padding-bottom: 0;
+    }
+    .mission-vision .card {
+      min-width: auto; /* allow cards to shrink naturally */
+    }
   }
 }
 
@@ -118,9 +119,6 @@
   display: none;
 }
 
-
-
-
 .follow-us {
   display: flex;
   flex-direction: column;
@@ -133,7 +131,6 @@
   font-family: Arial, sans-serif;
   max-width: 200px;
   margin: 0 auto 50px auto;
-  
 }
 
 .follow-us-text {

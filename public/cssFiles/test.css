@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
   padding: 0;
   font: 100% times, "times new romans", serif;
-  background: #300 url(/media/bg.jpg) no-repeat top center;
+  background: #300 url(/https://vscassets.pages.dev/js/bg.jpg) no-repeat top center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -27,7 +27,7 @@ img {
   margin: 0 auto;
   width: 100%;
   max-width: 950px;
-  background: url("/media/parchment.jpg") repeat-y top center;
+  background: url("/https://vscassets.pages.dev/js/parchment.jpg") repeat-y top center;
   background-size: 100% auto;
   position: relative;
 }
@@ -37,7 +37,7 @@ img {
   margin: 0;
   padding: 0 0 10px 0;
   text-align: center;
-  background: url("/media/ornament.gif") no-repeat center bottom;
+  background: url("/https://vscassets.pages.dev/js/ornament.gif") no-repeat center bottom;
   background-size: 80% auto;
   overflow: hidden;
 }
@@ -202,7 +202,7 @@ form input.button {
   padding: 20px 0;
   text-align: center;
   font-size: 0.8em;
-  background: #300 url("/media/foot.jpg") no-repeat top center;
+  background: #300 url("/https://vscassets.pages.dev/js/foot.jpg") no-repeat top center;
   background-size: 100% auto;
 }
 
