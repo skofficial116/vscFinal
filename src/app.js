@@ -37,5 +37,9 @@ app.use("/registration", registrationRouter);
 app.use("/home", homeRouter);
 app.use("/", homeRouter); // fallback
 
+
+app.get("*", (req, res) => {
+  res.status(404).send("Page Not Found");
+});
 // Export the app
 export { app };
