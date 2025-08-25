@@ -1,6 +1,5 @@
 const generateRegistrationHTML = ()=>{
    return `<!DOCTYPE html>
-<!---Coding By CodingLab | www.codinglabweb.com--->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,9 +7,9 @@ const generateRegistrationHTML = ()=>{
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!--  -->
-    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/test.css" />
+    
     <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/registration.css" />
-    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
   <body>
