@@ -9,7 +9,7 @@ const generateRegistrationHTML = ()=>{
     <!--  -->
     
     <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/registration.css" />
-    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css>
+    <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/common.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
   <body>
