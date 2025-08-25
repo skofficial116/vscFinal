@@ -7,9 +7,10 @@ const generateRegistrationHTML = ()=>{
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- <link rel="stylesheet" href="/common.css" /> -->
+    <!--  -->
     <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/test.css" />
     <link rel="stylesheet" href="https://vscassets.pages.dev/cssFiles/registration.css" />
+    <link rel="stylesheet" href="/common.css" />
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
   <body>
