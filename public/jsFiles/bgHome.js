@@ -5,11 +5,11 @@ const bookData = {
             Description:
                 "The timeless conversation between Lord Krishna and Arjuna, presenting the science of self-realization and the path to spiritual enlightenment.",
             content: {
-                Introduction:
-                    "/library/bg/introduction",
-                Preface: "/library/bg/preface",
-                "Disciplic Succession":
-                    "/library/bg/disciplic_succession",
+                // Introduction:
+                //     "/library/bg/",
+                // Preface: "/library/bg/",
+                // "Disciplic Succession":
+                //     "/library/bg/disciplic_succession",
                 "Chapter One: Observing the Armies on the Battlefield of Kurukṣetra":
                     "/library/bg/1",
                 "Chapter Two: Contents of the Gītā Summarized":
@@ -54,10 +54,10 @@ const bookData = {
             Description:
                 "भगवान कृष्ण और अर्जुन के बीच शाश्वत संवाद, आत्म-साक्षात्कार के विज्ञान और आध्यात्मिक ज्ञान के मार्ग को प्रस्तुत करता है।",
             content: {
-                आमुख: "/library/bg/introduction",
-                भूमिका: "/library/bg/preface",
-                "गुरु परंपरा":
-                    "/library/bg/disciplic_succession",
+                // आमुख: "/library/bg/",
+                // भूमिका: "/library/bg/",
+                // "गुरु परंपरा":
+                //     "/library/bg/disciplic_succession",
                 "अध्याय एक: कुरुक्षेत्र के युद्धस्थल में सैन्यनिरीक्षण":
                     "/library/bg/1",
                 "अध्याय दो: गीता का सार":

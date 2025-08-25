@@ -6,8 +6,8 @@ const libraryData = {
                 author: "His Divine Grace A.C. Bhaktivedanta Swami Srila Prabhupada",
                 description:
                   "The timeless conversation between Lord Krishna and Arjuna, presenting the science of self-realization and the path to spiritual enlightenment.",
-                coverImage: "/https://vscassets.pages.dev/js/bgCOver3.jpg",
-                link: "/library/category",
+                coverImage: "/media/bgCOver3.jpg",
+                link: "/library/bg",
                 altName:"gita-cover"
               },
             ],
@@ -63,8 +63,8 @@ const libraryData = {
                 author: "श्रील प्रभुपाद",
                 description:
                   "भगवान कृष्ण और अर्जुन के बीच कालातीत संवाद, आत्म-साक्षात्कार का विज्ञान और आध्यात्मिक ज्ञान का मार्ग प्रस्तुत करता है।",
-                coverImage: "/https://vscassets.pages.dev/js/gitaCover.jpg",
-                link: "/library/category",
+                coverImage: "/media/bgCOver3.jpg",
+                link: "/library/bg",
               },
             ],
             shlokaCategories: [
