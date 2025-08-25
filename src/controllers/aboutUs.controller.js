@@ -163,7 +163,7 @@ const generateAboutUsHTML = ()=>{
       <!-- Sticky Buy Button -->
       <div
         class="buy-btn"
-        onclick="window.open('https://wa.me/9988224832?text=Hare Krishna! I want to buy a Bhagavad Gita','_blank')"
+        onclick="window.open('https://wa.me/9988224832?text=Hare Krishna! I want to purchase a copy of Bhagavad Gita','_blank')"
       >
         <span class="icon">📖</span>
         <span class="text hidden">Buy Bhagavad Gita</span>
